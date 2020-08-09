@@ -1,0 +1,23 @@
+{
+    "vtex.menu@2.x:menu#header": {
+        "children": [
+            "menu-item#categories"
+            // "menu-item#fazendas",
+            // "menu-item#sobre",
+            // "menu-item#blog"
+        ],
+        "props":{
+            "orientation": "horizontal"
+        }
+    },
+    "menu-item#categories":{
+        "props": {
+            "type": "category",
+            "id": "category",
+            "itemProps": {
+                "tagTitle": "Shop",
+                "text": "Shop"
+            }
+        }
+    }
+}

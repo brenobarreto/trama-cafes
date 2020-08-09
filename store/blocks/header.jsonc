@@ -1,20 +1,29 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "header-row#menu"
     ]
   },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -28,10 +37,14 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
+  },
+  "login":{
+    "props":{
+      "iconLabel": "Meus Pedidos"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -48,8 +61,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "http://tramacafes.vteximg.com.br/arquivos/trama-logo.png",
+      "width": "50"
     }
   },
   "header-layout.mobile": {
@@ -75,5 +88,12 @@
   },
   "drawer": {
     "children": []
+  },
+  "header-row#menu": {
+    "children": [
+        "header-spacer",
+        "vtex.menu@2.x:menu#header",
+        "header-spacer"
+    ]
   }
 }
