@@ -1,6 +1,18 @@
 {
     "store.custom#sobre":{
-      "path": "/sobre"
+        "path": "/sobre"
+    },
+    "store.custom#fazendas":{
+        "path": "/fazendas"
+    },
+    "store.custom#frete-e-entrega":{
+        "path": "/frete-e-entrega"
+    },
+    "store.custom#troca-e-devolucao":{
+        "path": "/troca-e-devolucao"
+    },
+    "store.custom#privacidade":{
+        "path": "/privacidade"
     },
     "store.blog-home": {
         "path": "/blog"

@@ -1,0 +1,13 @@
+.container--newsletter-home{
+    background-color: #540d6e;
+    margin-top: 100px;
+}
+
+.notificationBarInner{
+    background-color: #EE4266;
+}
+
+.notificationContent{
+    color:#F3FCF0;
+    text-decoration-line: none;
+}

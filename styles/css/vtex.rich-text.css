@@ -1,0 +1,26 @@
+.container--footer{
+    padding-left: 5px;
+}
+
+.paragraph--footer{
+    font-style: italic;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+
+/*---HOME---*/
+.paragraph--home-shelf-title-novidades{
+    margin-top: 80px;
+    color: #1F271B;
+}
+
+.paragraph--home-shelf-title-ofertas{
+    margin-top: 80px;
+    color: #1F271B;
+}
+
+.link--blog-home-see-all{
+    text-decoration-line: none;
+    color: #540D6E;
+}

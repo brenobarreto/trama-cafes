@@ -1,0 +1,143 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-cafes",
+      "menu-item#category-acessorios",
+      "menu-item#fazendas",
+      "menu-item#sobre",
+      "menu-item#blog"
+    ]
+  },
+  "menu-item#category-cafes": {
+    "props": {
+      "id": "menu-item-category-cafes",
+      "type": "category",
+      "iconId": null,
+      "highlight": true,
+      "categoryId": 1,
+      "text": "Cafés Especiais",
+      "blockClass": "header-menu-item"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-cafes"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-cafes": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-cafes"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-cafes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-cafes-graos",
+      "menu-item#category-cafes-moidos",
+      "menu-item#category-cafes-capsulas"
+    ]
+  },
+  "menu-item#category-cafes-graos": {
+    "props": {
+      "id": "menu-item-category-cafes-graos",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "categoryId": 3,
+      "text": "Em Grãos"
+    }
+  },
+  "menu-item#category-cafes-moidos": {
+    "props": {
+      "id": "menu-item-category-cafes-moidos",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "categoryId": 4,
+      "text": "Moídos"
+    }
+  },
+  "menu-item#category-cafes-capsulas": {
+    "props": {
+      "id": "menu-item-category-cafes-capsulas",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "categoryId": 5,
+      "text": "Cápsulas"
+    }
+  },
+  "menu-item#category-acessorios": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "category",
+      "iconId": null,
+      "highlight": false,
+      "categoryId": 6,
+      "text": "Acessórios",
+      "blockClass": "header-menu-item"
+    }
+  },
+  "menu-item#fazendas":{
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fazendas",
+        "noFollow": false,
+        "tagTitle": "Fazendas",
+        "text": "Fazendas"
+    },
+    "blockClass": "header-menu-item"
+  }
+},
+  "menu-item#sobre":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/sobre",
+          "noFollow": false,
+          "tagTitle": "Sobre",
+          "text": "Sobre"
+      },
+      "blockClass": "header-menu-item"
+    }
+  },
+  "menu-item#blog":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/blog",
+          "noFollow": false,
+          "tagTitle": "Blog",
+          "text": "Blog"
+      },
+      "blockClass": "header-menu-item"
+    }
+  }
+
+  
+  // "vtex.category-menu@2.x:category-menu#store-menu-hombre": {
+  //   "props": {
+  //     // "mobileMode": true,
+  //     "showAllDepartments": false,
+  //     "showSubcategories": false,
+  //     "menuDisposition": "left",
+  //     "blockClass": "categorias",
+  //     "experimentalOptimizeRendering": false,
+  //     "departments": []
+  //   }
+  // }
+
+}

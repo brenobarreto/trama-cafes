@@ -1,0 +1,116 @@
+{
+  "vtex.menu@2.x:menu#pedidos-contato": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#contato"
+    ]
+  },
+  "menu-item#meus-pedidos": {
+    "props": {
+      "id": "menu-item-meus-pedidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/myorders",
+        "noFollow": false,
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
+      },
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "id": "menu-item-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Entre em contato",
+        "text": "Entre em contato"
+      },
+      "blockClass": "header-menu-item"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-suporte": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#frete-e-entrega",
+      "menu-item#troca-e-devolucao",
+      "menu-item#privacidade"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#meus-pedidos",
+      "menu-item#contato",
+      "menu-item#frete-e-entrega",
+      "menu-item#troca-e-devolucao",
+      "menu-item#privacidade"
+    ]
+  },
+  "menu-item#frete-e-entrega": {
+    "props": {
+      "id": "menu-item-category-frete-e-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/frete-e-entrega",
+        "noFollow": true,
+        "tagTitle": "Frete e entrega",
+        "text": "Frete e entrega"
+      },
+      "blockClass": "header-menu-item"
+    }
+  },
+
+  "menu-item#troca-e-devolucao": {
+    "props": {
+      "id": "menu-item-troca-e-devolucao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/troca-e-devolucao",
+        "noFollow": false,
+        "tagTitle": "Troca e devolução",
+        "text": "Troca e devolução"
+      },
+      "blockClass": "header-menu-item"
+    }
+  },
+
+  "menu-item#privacidade": {
+    "props": {
+      "id": "menu-item-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de privacidade",
+        "text": "Política de privacidade"
+      },
+      "blockClass": "header-menu-item"
+    }
+  }
+}

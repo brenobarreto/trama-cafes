@@ -1,0 +1,13 @@
+.teaserTitleLink{
+    text-decoration-line: none;
+    color: #EE4266;
+}
+
+.latestPostsBlockContainer--blog-posts-preview-home{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.latestPostsBlockTitle--blog-posts-preview-home{
+    color: #1F271B;
+}
