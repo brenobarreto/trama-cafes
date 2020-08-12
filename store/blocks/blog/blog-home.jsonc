@@ -1,7 +1,38 @@
 {
     "store.blog-home":{
-        "blocks":[
-            "blog-all-posts.wordpress-all-posts"
-        ]
-    }
+        "blocks": [
+            "rich-text#blog-title",
+            "flex-layout.row#search",
+            "blog-all-posts.wordpress-all-posts#blog-home"
+          ]
+        },
+        "rich-text#blog-title":{
+            "props": {
+                "text": "Descubra o universo do café especial",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER",
+                "textColor": "#4B5446",
+                "font": "t-heading-1"
+            }
+        },
+
+        "flex-layout.row#search":{
+            "children":[
+                "blog-search.wordpress-search"
+            ]
+        },
+        
+        "blog-search.wordpress-search": {
+          "props": {
+            "placeholder": "Buscar artigos..."
+          }
+        },
+
+        "blog-all-posts.wordpress-all-posts#blog-home": {
+          "props": {
+            "showCategories": false,
+            "blockClass": "all-posts"
+          }
+        }
+    
 }

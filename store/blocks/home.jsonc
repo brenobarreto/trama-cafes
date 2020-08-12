@@ -167,11 +167,11 @@
 
   "flex-layout.row#blog":{
     "children": [
-      "blog-latest-posts-preview.wordpress-latest-posts-preview"
+      "blog-latest-posts-preview.wordpress-latest-posts-preview#home"
     ]
   },
 
-  "blog-latest-posts-preview.wordpress-latest-posts-preview":{
+  "blog-latest-posts-preview.wordpress-latest-posts-preview#home":{
     "props":{
       "blockClass": "blog-posts-preview-home",
       "title": "Descubra o universo do café especial",

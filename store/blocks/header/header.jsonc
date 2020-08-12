@@ -99,9 +99,8 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-cafes",
-      "menu-item#category-acessorios"
-      // "vtex.category-menu@2.x:category-menu#store-menu-hombre"
+      "menu-item#category-cafes"
+      // "menu-item#category-acessorios"
     ],
     "props": {
       "orientation": "vertical"

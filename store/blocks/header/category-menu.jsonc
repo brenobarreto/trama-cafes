@@ -5,7 +5,7 @@
     },
     "children": [
       "menu-item#category-cafes",
-      "menu-item#category-acessorios",
+      // "menu-item#category-acessorios",
       "menu-item#fazendas",
       "menu-item#sobre",
       "menu-item#blog"
