@@ -25,5 +25,11 @@
     },
     "store.blog-search-result": {
         "path": "/blog/search/:term"
+    },
+    "store.custom#fazenda-iranita":{
+        "path": "/fazenda-iranita"
     }
 }
+
+
+

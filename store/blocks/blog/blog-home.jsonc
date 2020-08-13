@@ -2,7 +2,7 @@
     "store.blog-home":{
         "blocks": [
             "rich-text#blog-title",
-            "flex-layout.row#search",
+            "flex-layout.row#blog-search",
             "blog-all-posts.wordpress-all-posts#blog-home"
           ]
         },
@@ -16,7 +16,7 @@
             }
         },
 
-        "flex-layout.row#search":{
+        "flex-layout.row#blog-search":{
             "children":[
                 "blog-search.wordpress-search"
             ]

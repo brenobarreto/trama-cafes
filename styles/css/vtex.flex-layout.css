@@ -5,3 +5,12 @@
 .flexRow--flex-tributo{
     padding-bottom: 100px;
 }
+
+.flexRow--fazendas-description{
+    margin-bottom: 60px;
+}
+
+.flexCol--card-fazendas{
+    margin: 45px;
+    padding: 5px;
+}

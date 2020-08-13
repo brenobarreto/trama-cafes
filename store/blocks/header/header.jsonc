@@ -46,10 +46,16 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "search-bar",
+      "search-bar#home",
       "login",
       "minicart.v2"
     ]
+  },
+  "search-bar#home":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {

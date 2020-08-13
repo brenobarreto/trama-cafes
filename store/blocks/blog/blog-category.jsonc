@@ -1,7 +1,18 @@
 {
     "store.blog-category":{
         "blocks":[
+            "rich-text#blog-category-title",
+            "flex-layout.row#blog-search",
             "blog-category-list.wordpress-category-list"
         ]
+    },
+    "rich-text#blog-category-title":{
+        "props": {
+            "text": "Descubra as fazendas de café especial",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-1"
+        }
     }
 }

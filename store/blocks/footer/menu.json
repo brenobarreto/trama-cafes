@@ -37,7 +37,7 @@
         "tagTitle": "Entre em contato",
         "text": "Entre em contato"
       },
-      "blockClass": "header-menu-item"
+      "blockClass": "footer-menu-item"
     }
   },
 
@@ -76,7 +76,7 @@
         "tagTitle": "Frete e entrega",
         "text": "Frete e entrega"
       },
-      "blockClass": "header-menu-item"
+      "blockClass": "footer-menu-item"
     }
   },
 
@@ -93,7 +93,7 @@
         "tagTitle": "Troca e devolução",
         "text": "Troca e devolução"
       },
-      "blockClass": "header-menu-item"
+      "blockClass": "footer-menu-item"
     }
   },
 
@@ -110,7 +110,7 @@
         "tagTitle": "Política de privacidade",
         "text": "Política de privacidade"
       },
-      "blockClass": "header-menu-item"
+      "blockClass": "footer-menu-item"
     }
   }
 }

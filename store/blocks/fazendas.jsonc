@@ -1,7 +1,88 @@
 {
     "store.custom#fazendas":{
         "blocks":[
-            
+            "rich-text#fazendas-title",
+            "flex-layout.row#fazendas-description",
+            "flex-layout.row#fazendas1"
         ]
+    },
+    "rich-text#fazendas-title":{
+        "props":{
+            "text": "Fazendas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-1"
+        }
+    },
+    "flex-layout.row#fazendas-description":{
+        "children":[
+            "rich-text#fazendas-description"
+        ],
+        "props": {
+            "blockClass": "fazendas-description"
+        }
+    },
+    "rich-text#fazendas-description":{
+        "props":{
+            "text": "Conheça as histórias de todas as fazendas de café com as quais trabalhamos e veja seus produtos.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#fazendas1":{
+        "children":[
+            "flex-layout.col#fazenda-iranita",
+            "flex-layout.col#sitio-alto-ouro",
+            "flex-layout.col#sitio-boa-vista-do-engano"
+        ],
+        "props":{
+            "blockClass": "row-fazendas"
+        }
+    },
+    "flex-layout.col#fazenda-iranita":{
+        "children":[
+            "image#fazenda-iranita"
+        ],
+        "props":{
+            "blockClass": "card-fazendas"
+        }
+    },
+    "image#fazenda-iranita":{
+        "props": {
+           "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
+           "link": "https://google.com",
+           "blockClass": "card-img-fazendas"
+          }
+    },
+    "flex-layout.col#sitio-alto-ouro":{
+        "children":[
+            "image#sitio-alto-ouro"
+        ],
+        "props":{
+            "blockClass": "card-fazendas"
+        }
+    },
+    "image#sitio-alto-ouro":{
+        "props": {
+            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
+            "link": "/fazenda-iranita",
+            "blockClass": "card-img-fazendas"
+          }
+    },
+    "flex-layout.col#sitio-boa-vista-do-engano":{
+        "children":[
+            "image#sitio-boa-vista-do-engano"
+        ],
+        "props":{
+            "blockClass": "card-fazendas"
+        }
+    },
+    "image#sitio-boa-vista-do-engano":{
+        "props": {
+            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
+            "link": "/fazenda-iranita",
+            "blockClass": "card-img-fazendas"
+          }
     }
 }
