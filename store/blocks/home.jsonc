@@ -20,7 +20,6 @@
       "slider-layout#main-images"
     ],
     "props": {
-      // "height": 445,
       "images": [
         {
           "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
