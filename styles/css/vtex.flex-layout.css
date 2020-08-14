@@ -55,3 +55,9 @@
 .flexRow--row-fazendas{
     margin-bottom: 4rem;
 }
+
+@media(min-width:800px){
+    .flexRow--institucional-body{
+        margin: 0 10rem 0 10rem;
+    }
+}

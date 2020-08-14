@@ -1,0 +1,38 @@
+{
+    "store.custom#privacidade":{
+        "blocks":[
+            "flex-layout.row#privacidade-title",
+            "flex-layout.row#privacidade-body"   
+        ]
+    },
+
+    "flex-layout.row#privacidade-title":{
+        "children":[
+            "rich-text#privacidade-title"
+        ]
+    },
+    "rich-text#privacidade-title":{
+        "props":{
+            "text": "Política de privacidade",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#1f271b",
+            "font": "t-heading-1"
+        }
+    },
+
+    "flex-layout.row#privacidade-body":{
+        "children":[
+            "rich-text#privacidade-body"
+        ],
+        "props":{
+            "blockClass": "institucional-body"
+        }
+    },
+    "rich-text#privacidade-body":{
+        "props":{
+            "text": "A Política de Privacidade e Segurança da TRAMA CAFÉS visa à segurança das pessoas que utilizam nosso site. Nunca compartilhamos nenhuma informação fornecida ao site e as guardamos com os mais rígidos padrões de segurança e confiabilidade.\n\nTodo o processo de compra e cadastramento é 100% seguro, garantido por empresas de segurança e certificação. As informações são criptografadas, tornando muito difícil que cheguem a outras pessoas.\n\nApenas a TRAMA CAFÉS pode consultar os dados, para envio dos produtos e estatísticas internas e promoções exclusivas, quando previamente aprovado pelo cliente. O número de cartão de crédito não permanece no nosso sistema após o ato da compra.\n\nEm caso de dúvidas, fique à vontade para entrar em contato conosco por meio do e-mail contato@tramacafes.com.br.\n\nTrama Cafés\n*Da Fazenda para sua Xícara*"
+        }
+    }
+
+}
