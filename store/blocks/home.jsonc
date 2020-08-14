@@ -1,15 +1,198 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "list-context.image-list#main-banner",
+      "rich-text#shelf-novidades",
+      "search-result-layout.customQuery#home-novidades",
+      "rich-text#shelf-ofertas",
+      "search-result-layout.customQuery#home-ofertas",
+      "newsletter#home",
+      "flex-layout.row#blog",
+      "rich-text#blog-see-all"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store",
+
+
+  /*----BANNER----*/
+
+  "list-context.image-list#main-banner":{
+    "children": [
+      "slider-layout#main-images"
+    ],
+    "props": {
+      "height": 445,
+      "images": [
+        {
+          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
+          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
+          "description": "Promoção Café Bazilli"
+        },
+        {
+          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
+          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
+          "description": "Promoção Café Bazilli"
+        }
+      ]
+    }
+  },
+  "slider-layout#main-images":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home-slider"
+    }
+  },
+
+
+  /*----TITLE NOVIDADES----*/
+
+  "rich-text#shelf-novidades":{
+    "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "text": "Novidades",
+      "textColor": "#1f271b",
+      "font": "t-heading-2",
+      "blockClass": "home-shelf-title-novidades"
+    }
+  },
+
+
+  /*----SEARCH RESULTS - NOVIDADES----*/
+
+  "search-result-layout.customQuery#home-novidades": {
+    "blocks": [
+      "search-result-layout.desktop#home",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL_AVAILABLE",
+        "queryField": "138",
+        "mapField": "productClusterIds",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "hiddenFacets": {
+          "brands": "true"
+        }
+      },
+      "blockClass": "results-novidades-home"
+    }
+  },
+
+    /*----TITLE OFERTAS----*/
+
+    "rich-text#shelf-ofertas":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Ofertas",
+        "textColor": "#1f271b",
+        "font": "t-heading-2",
+        "blockClass": "home-shelf-title-ofertas"
+      }
+    },
+
+  /*----SEARCH RESULTS - COLLECTION OFERTAS----*/
+
+  "search-result-layout.customQuery#home-ofertas": {
+    "blocks": [
+      "search-result-layout.desktop#home",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL_AVAILABLE",
+        "queryField": "137",
+        "mapField": "productClusterIds",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "hiddenFacets": {
+          "brands": "true"
+        }
+      }
+    }
+  },
+
+  "search-result-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#result-home"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#result-home": {
+    "children": ["flex-layout.col#content-home"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#content-home": {
+    "children": [
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+
+
+  /*----NEWSLETTER----*/
+
+  "newsletter#home":{
+    "props":{
+      "blockClass": "newsletter-home"
+    }
+  },
+  
+
+  /*----BLOG ----*/
+
+  "flex-layout.row#blog":{
+    "children": [
+      "blog-latest-posts-preview.wordpress-latest-posts-preview#home"
+    ]
+  },
+
+  "blog-latest-posts-preview.wordpress-latest-posts-preview#home":{
+    "props":{
+      "blockClass": "blog-posts-preview-home",
+      "title": "Descubra o universo do café especial",
+      "numberOfPosts": 3,
+      "showExcerpts": true,
+      "showCategories": false
+    }
+  },
+
+  "rich-text#blog-see-all":{
+    "props":{
+      "text": "[*Ver todos os posts ➜*](/blog)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "#4B5446",
+      "font": "t-heading-5",
+      "blockClass": "blog-home-see-all"
     }
   }
 }

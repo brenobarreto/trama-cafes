@@ -1,0 +1,43 @@
+.container--footer{
+    padding-left: 5px;
+}
+
+.paragraph--footer{
+    font-style: italic;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+
+/*---HOME---*/
+.paragraph--home-shelf-title-novidades{
+    margin-top: 3rem;
+    color: #1F271B;
+}
+
+.paragraph--home-shelf-title-ofertas{
+    /* margin-top: 1rem; */
+    color: #1F271B;
+}
+
+.container--blog-home-see-all{
+    margin-bottom: 5rem;
+}
+
+.link--blog-home-see-all{
+    text-decoration-line: none;
+    color: #540D6E;
+}
+
+.heading--sobre-title{
+    color: #1F271B;
+    padding-top: 25px;
+}
+
+.paragraph--iranita-prods-title{
+    margin-top: 40px;
+}
+
+.container--iranita-prods-title{
+    background-color: #F3FCF0;
+}

@@ -1,0 +1,38 @@
+{
+    "store.custom#sobre":{
+        "path": "/sobre"
+    },
+    "store.custom#fazendas":{
+        "path": "/fazendas"
+    },
+    "store.custom#frete-e-entrega":{
+        "path": "/frete-e-entrega"
+    },
+    "store.custom#troca-e-devolucao":{
+        "path": "/troca-e-devolucao"
+    },
+    "store.custom#privacidade":{
+        "path": "/privacidade"
+    },
+    "store.blog-home": {
+        "path": "/blog"
+    },
+    "store.blog-category": {
+        "path": "/blog/category/:categoryslug"
+    },
+    "store.blog-post": {
+        "path": "/blog/post/:slug"
+    },
+    "store.blog-search-result": {
+        "path": "/blog/search/:term"
+    },
+    "store.custom#fazenda-iranita":{
+        "path": "/fazenda-iranita"
+    },
+    "store.custom#sitio-boa-vista-do-engano":{
+        "path": "/sitio-boa-vista-do-engano"
+    }
+}
+
+
+

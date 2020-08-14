@@ -1,0 +1,146 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "🏷️ 10% DE DESCONTO NO BOLETO À VISTA",
+      "blockClass": "top-notification"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar#home",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "search-bar#home":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo Trama Cafés",
+      "href": "/",
+      "url": "https://tramacafes.vteximg.com.br/arquivos/trama-logo-texto.png",
+      "width": 200
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-cafes",
+      // "menu-item#category-acessorios",
+      "menu-item#fazendas",
+      "menu-item#sobre",
+      "menu-item#blog"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-drawer-mobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo Trama Cafés",
+      "href": "/",
+      "url": "http://tramacafes.vteximg.com.br/arquivos/trama-logo.png",
+      "width": "30"
+    }
+  },
+  "login":{
+    "props":{
+      "iconLabel": "Entrar",
+      "blockClass": "header-login"
+    }
+  }
+}

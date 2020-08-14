@@ -1,0 +1,154 @@
+{
+    "store.custom#fazenda-iranita":{
+        "blocks":[
+            "flex-layout.row#iranita-title",
+            "flex-layout.row#body-iranita1",
+            "rich-text#iranita-prods-title",
+            "flex-layout.row#iranita-prods",
+            "flex-layout.row#body-iranita2"
+        ]
+    },
+
+    "flex-layout.row#iranita-title":{
+        "children":[
+            "rich-text#iranita-title"
+        ],
+        "props":{
+            "blockClass":"fazenda-title"
+        }
+    },
+    "rich-text#iranita-title":{
+        "props":{
+            "text": "Fazenda Iranita",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-1"
+        }
+    },
+
+    "flex-layout.row#body-iranita1":{
+        "children":[
+            "image#iranita1",
+            "flex-layout.col#iranita1"
+        ],
+        "props":{
+            "blockClass":"fazenda-body-1"
+        }
+    },
+    "image#iranita1":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
+    },
+    "flex-layout.col#iranita1":{
+        "children":[
+            "rich-text#iranita1"
+        ]
+    },
+    "rich-text#iranita1":{
+        "props":{
+            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+        }
+    },
+
+    "flex-layout.row#body-iranita2":{
+        "children":[
+            "flex-layout.col#iranita2",
+            "image#iranita2"
+        ],
+        "props":{
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#iranita2":{
+        "children":[
+            "rich-text#iranita2"
+        ]
+    },    
+    "image#iranita2":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
+    },
+    "rich-text#iranita2":{
+        "props":{
+            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+        }
+    },
+
+    "flex-layout.row#iranita-prods":{
+        "children":[
+            "search-result-layout.customQuery#iranita"
+        ],
+        "props":{
+            "blockClass": "fazenda-prods"
+        }
+    },
+    "rich-text#iranita-prods-title":{
+        "props":{
+            "text": "Cafés da Fazenda Iranita",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-3",
+            "blockClass": "iranita-prods-title"
+
+        }
+    },
+    "search-result-layout.customQuery#iranita": {
+        "blocks": [
+            "search-result-layout.desktop#iranita",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+            "skusFilter": "ALL_AVAILABLE",
+            "queryField": "Caf%C3%A9%20Iranita",
+            "mapField": "b",
+            "simulationBehavior": "default",
+            "maxItemsPerPage": 15,
+            "orderByField": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true
+            }        
+        }
+    },
+    "search-result-layout.desktop#iranita": {
+        "children": [
+            "flex-layout.row#result-iranita"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#result-iranita": {
+        "children": ["flex-layout.col#content-iranita"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#content-iranita": {
+        "children": [
+            "flex-layout.row#fetchprevious",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true
+        }
+    }
+}

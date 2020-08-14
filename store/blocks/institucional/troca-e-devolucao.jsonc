@@ -1,0 +1,38 @@
+{
+    "store.custom#troca-e-devolucao":{
+        "blocks":[
+            "flex-layout.row#troca-e-devolucao-title",
+            "flex-layout.row#troca-e-devolucao-body"   
+        ]
+    },
+
+    "flex-layout.row#troca-e-devolucao-title":{
+        "children":[
+            "rich-text#troca-e-devolucao-title"
+        ]
+    },
+    "rich-text#troca-e-devolucao-title":{
+        "props":{
+            "text": "Troca e devolução",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#1f271b",
+            "font": "t-heading-1"
+        }
+    },
+
+    "flex-layout.row#troca-e-devolucao-body":{
+        "children":[
+            "rich-text#troca-e-devolucao-body"
+        ],
+        "props":{
+            "blockClass": "institucional-body"
+        }
+    },
+    "rich-text#troca-e-devolucao-body":{
+        "props":{
+            "text": "De acordo com o Código de Defesa do Consumidor, o cliente tem até 07 (sete) dias úteis para solicitar a troca a partir da data de recebimento.\n\n**Troca espontânea:** Se a troca for feita única e exclusivamente por vontade do cliente, a solicitação deverá ser feita com a Central de Atendimento. Assim, adotamos a Política de Troca Compartilhada, em que o cliente deverá enviar o produto por conta própria. Assim que o produto chegar ao endereço informado, o cliente poderá escolher outro produto e receber sem custo de entrega.\n\n**Troca justificada:** Caso o motivo da troca seja avaria, defeito ou erro, o cliente tem até 30 (trinta) dias corridos para solicitar a troca junto à equipe de atendimento da loja, via e-mail (contato@tramacafes.com.br). Neste caso, o recebimento do novo produto não ocasionará nenhum custo para o cliente.\n\n**Devolução:** Se o cliente desistir da compra, deverá entrar em contato com a equipe de atendimento da loja em até 7 (sete) dias úteis após o recebimento do produto e comunicar a desistência. O cliente deverá, então, enviar o produto à loja por meio dos Correios. Neste caso, não haverá custo para o cliente. A loja enviará ao cliente um código de envio, que deverá ser informado na agência dos Correios para isenção de custo do envio."
+        }
+    }
+
+}

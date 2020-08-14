@@ -1,0 +1,38 @@
+{
+    "store.custom#frete-e-entrega":{
+        "blocks":[
+            "flex-layout.row#frete-e-entrega-title",
+            "flex-layout.row#frete-e-entrega-body"   
+        ]
+    },
+
+    "flex-layout.row#frete-e-entrega-title":{
+        "children":[
+            "rich-text#frete-e-entrega-title"
+        ]
+    },
+    "rich-text#frete-e-entrega-title":{
+        "props":{
+            "text": "Frete e entrega",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#1f271b",
+            "font": "t-heading-1"
+        }
+    },
+
+    "flex-layout.row#frete-e-entrega-body":{
+        "children":[
+            "rich-text#frete-e-entrega-body"
+        ],
+        "props":{
+            "blockClass": "institucional-body"
+        }
+    },
+    "rich-text#frete-e-entrega-body":{
+        "props":{
+            "text": "🚚 Trabalhamos para entregar seu café no **menor tempo possível** e com o máximo de **conveniência**.\n\n\n**Território**\nEntregamos em todo o território nacional (Brasil), exceto endereços nos quais a transportadora não atuar.\n\n**Forma de envio**\nA forma de envio é escolhida pelo cliente, entre as opções oferecidas pelo site.\n\n**Valor e prazo**\nO valor do frete e o tempo para recebimento dos produtos são calculados após o cliente preencher o CEP no momento da compra, e podem variar dependendo da localização e da forma de envio escolhida.\nO prazo para recebimento começa a contar, em dias úteis, a partir da confirmação de pagamento.\n\n**Promoções**\nEm caso de promoções – no site, e-mail ou redes sociais –, o valor do frete pode ser gratuito, respeitando as regras da promoção."
+        }
+    }
+
+}
