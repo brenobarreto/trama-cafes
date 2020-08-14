@@ -8,6 +8,21 @@
     margin-bottom: 6rem;
 }
 
+.label--newsletter-home{
+    color: #F3FCF0
+}
+
+.inputGroup--newsletter-home :global(.vtex-button){
+    background-color: transparent;
+    color: #F3FCF0;
+    border: 0;
+}
+
+.input--newsletter-home{
+    background-color: transparent;
+    color: #F3FCF0;
+}
+
 .notificationBarInner{
     background-color: #EE4266;
 }
