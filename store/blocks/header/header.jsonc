@@ -80,10 +80,10 @@
   },
   "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "title": "Logo Trama Cafés",
       "href": "/",
-      "url": "http://tramacafes.vteximg.com.br/arquivos/trama-logo.png",
-      "width": "60"
+      "url": "https://tramacafes.vteximg.com.br/arquivos/trama-logo-texto.png",
+      "width": 200
     }
   },
   "header-layout.mobile": {
@@ -131,7 +131,7 @@
   },
   "logo#mobile": {
     "props": {
-      "title": "Logo",
+      "title": "Logo Trama Cafés",
       "href": "/",
       "url": "http://tramacafes.vteximg.com.br/arquivos/trama-logo.png",
       "width": "30"
