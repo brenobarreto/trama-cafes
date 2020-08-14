@@ -11,12 +11,12 @@
 
 /*---HOME---*/
 .paragraph--home-shelf-title-novidades{
-    margin-top: 80px;
+    margin-top: 3rem;
     color: #1F271B;
 }
 
 .paragraph--home-shelf-title-ofertas{
-    margin-top: 80px;
+    /* margin-top: 1rem; */
     color: #1F271B;
 }
 

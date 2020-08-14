@@ -16,17 +16,21 @@
   /*----BANNER----*/
 
   "list-context.image-list#main-banner":{
-    "children": ["slider-layout#main-images"],
+    "children": [
+      "slider-layout#main-images"
+    ],
     "props": {
       "height": 445,
       "images": [
         {
-          "image": "http://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
+          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
+          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
           "description": "Promoção Café Bazilli"
         },
         {
-          "image": "http://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
-          "description": "something something"
+          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
+          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
+          "description": "Promoção Café Bazilli"
         }
       ]
     }
