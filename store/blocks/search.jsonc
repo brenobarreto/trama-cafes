@@ -72,7 +72,8 @@
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
-      }
+      },
+      "blockClass": "search-result"
     }
   },
   "flex-layout.row#searchbread": {
@@ -135,8 +136,15 @@
     "props": {
       "marginTop": 3
     },
-    "children": ["search-fetch-more"]
+    "children": [
+      "search-fetch-more"
+    ]
   },
+    "search-fetch-more":{
+      "props":{
+        "blockClass": "fetch-more"
+      }
+    },
   "flex-layout.row#products": {
     "children": ["search-content"]
   },
@@ -158,7 +166,8 @@
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
-      }
+      },
+      "blockClass": "search-result"
     }
   },
   "flex-layout.row#contentmobile": {

@@ -20,6 +20,10 @@
     color: #1F271B;
 }
 
+.container--blog-home-see-all{
+    margin-bottom: 5rem;
+}
+
 .link--blog-home-see-all{
     text-decoration-line: none;
     color: #540D6E;
@@ -28,4 +32,12 @@
 .heading--sobre-title{
     color: #1F271B;
     padding-top: 25px;
+}
+
+.paragraph--iranita-prods-title{
+    margin-top: 40px;
+}
+
+.container--iranita-prods-title{
+    background-color: #F3FCF0;
 }

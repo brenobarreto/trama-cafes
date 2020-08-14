@@ -19,7 +19,8 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "10% DE DESCONTO NO BOLETO À VISTA"
+      "content": "🏷️ 10% DE DESCONTO NO BOLETO À VISTA",
+      "blockClass": "top-notification"
     }
   },
   "flex-layout.col#spacer": {
@@ -118,6 +119,12 @@
       "href": "/",
       "url": "http://tramacafes.vteximg.com.br/arquivos/trama-logo.png",
       "width": "30"
+    }
+  },
+  "login":{
+    "props":{
+      "iconLabel": "Entrar",
+      "blockClass": "header-login"
     }
   }
 }

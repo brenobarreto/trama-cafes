@@ -28,6 +28,9 @@
     },
     "store.custom#fazenda-iranita":{
         "path": "/fazenda-iranita"
+    },
+    "store.custom#sitio-boa-vista-do-engano":{
+        "path": "/sitio-boa-vista-do-engano"
     }
 }
 

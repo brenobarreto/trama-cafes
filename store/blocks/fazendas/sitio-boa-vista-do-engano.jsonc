@@ -1,0 +1,133 @@
+{
+    "store.custom#sitio-boa-vista-do-engano":{
+        "blocks":[
+            "flex-layout.row#sitio-boa-vista-do-engano-title",
+            "flex-layout.row#body-sitio-boa-vista-do-engano1",
+            "flex-layout.row#sitio-boa-vista-do-engano-prods",
+            "flex-layout.row#body-sitio-boa-vista-do-engano2"
+        ]
+    },
+
+    "flex-layout.row#sitio-boa-vista-do-engano-title":{
+        "children":[
+            "rich-text#sitio-boa-vista-do-engano-title"
+        ]
+    },
+    "rich-text#sitio-boa-vista-do-engano-title":{
+        "props":{
+            "text": "Sítio Boa Vista do Engano",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-1"
+        }
+    },
+
+    "flex-layout.row#body-sitio-boa-vista-do-engano1":{
+        "children":[
+            "image#sitio-boa-vista-do-engano1",
+            "flex-layout.col#sitio-boa-vista-do-engano1"
+        ]
+    },
+    "image#sitio-boa-vista-do-engano1":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
+    },
+    "flex-layout.col#sitio-boa-vista-do-engano1":{
+        "children":[
+            "rich-text#sitio-boa-vista-do-engano1"
+        ]
+    },
+    "rich-text#sitio-boa-vista-do-engano1":{
+        "props":{
+            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+        }
+    },
+
+    "flex-layout.row#body-sitio-boa-vista-do-engano2":{
+        "children":[
+            "flex-layout.col#sitio-boa-vista-do-engano2",
+            "image#sitio-boa-vista-do-engano2"
+        ]
+    },
+    "flex-layout.col#sitio-boa-vista-do-engano2":{
+        "children":[
+            "rich-text#sitio-boa-vista-do-engano2"
+        ]
+    },    
+    "image#sitio-boa-vista-do-engano2":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
+    },
+    "rich-text#sitio-boa-vista-do-engano2":{
+        "props":{
+            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+        }
+    },
+
+    "flex-layout.row#sitio-boa-vista-do-engano-prods":{
+        "children":[
+            "search-result-layout.customQuery#sitio-boa-vista-do-engano"
+        ]
+    },
+    "search-result-layout.customQuery#sitio-boa-vista-do-engano": {
+        "blocks": [
+            "search-result-layout.desktop#sitio-boa-vista-do-engano",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "queryField": "Caf%C3%A9%20Bazilli",
+            "mapField": "b",
+            "simulationBehavior": "default",
+            "maxItemsPerPage": 5,
+            "orderByField": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true
+            // "hiddenFacets": {
+            //   "brands": "true"
+            // }
+            }
+        }
+    },
+    "search-result-layout.desktop#sitio-boa-vista-do-engano": {
+        "children": [
+            "flex-layout.row#result-sitio-boa-vista-do-engano"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#result-sitio-boa-vista-do-engano": {
+        "children": ["flex-layout.col#content-sitio-boa-vista-do-engano"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#content-sitio-boa-vista-do-engano": {
+        "children": [
+            "flex-layout.row#fetchprevious",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true
+        }
+    }
+}

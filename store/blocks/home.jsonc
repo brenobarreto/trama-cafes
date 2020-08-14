@@ -6,7 +6,7 @@
       "search-result-layout.customQuery#home-novidades",
       "rich-text#shelf-ofertas",
       "search-result-layout.customQuery#home-ofertas",
-      "newsletter",
+      "newsletter#home",
       "flex-layout.row#blog",
       "rich-text#blog-see-all"
     ]
@@ -51,7 +51,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Novidades",
-      "textColor": "black",
+      "textColor": "#1f271b",
       "font": "t-heading-2",
       "blockClass": "home-shelf-title-novidades"
     }
@@ -90,7 +90,7 @@
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "text": "Ofertas",
-        "textColor": "black",
+        "textColor": "#1f271b",
         "font": "t-heading-2",
         "blockClass": "home-shelf-title-ofertas"
       }
@@ -156,7 +156,7 @@
 
   /*----NEWSLETTER----*/
 
-  "newsletter":{
+  "newsletter#home":{
     "props":{
       "blockClass": "newsletter-home"
     }

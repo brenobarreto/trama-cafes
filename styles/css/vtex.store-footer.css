@@ -4,5 +4,8 @@
 
 .footerLayout{
     background-color: #1f271B;
-    margin-top: 90px;
+}
+
+.footerLayoutSpacer{
+    background-color: #FFD23F;
 }

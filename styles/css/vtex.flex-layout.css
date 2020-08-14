@@ -14,3 +14,44 @@
     margin: 45px;
     padding: 5px;
 }
+
+.flexRow--fazenda-prods{
+    background-color: #F3FCF0;
+}
+.flexRowContent--fazenda-prods{
+    padding: 20px 0 50px 0;
+}
+
+.flexColChild--prod-col{
+    margin-top: 1.5rem;
+}
+
+.flexCol--prod-col :global(.vtex-button){
+    height: 1.5rem;
+    background-color: #4BA42D;
+    transition: box-shadow .3s;
+}
+
+.flexCol--prod-col :global(.vtex-button):hover{
+    background-color: #258404;
+    box-shadow: 0 0 14px rgba(33,33,33,.2); 
+}
+
+.flexRow--fazenda-title{
+    background-color: #FFD23F;
+}
+
+.flexRow--fazenda-body-1{
+    background-color: #FFD23F;
+    padding-bottom: 6rem;
+}
+
+.flexRow--fazenda-body-2{
+    background-color: #FFD23F;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.flexRow--row-fazendas{
+    margin-bottom: 4rem;
+}
