@@ -15,11 +15,13 @@
     padding: 5px;
 }
 
-.flexRow--fazenda-prods{
-    background-color: #F3FCF0;
-}
+/* .flexRow--fazenda-prods{
+    background-color: white;
+} */
+
 .flexRowContent--fazenda-prods{
     padding: 20px 0 50px 0;
+    background-color: white
 }
 
 .flexColChild--prod-col{

@@ -40,8 +40,9 @@
 
 .paragraph--iranita-prods-title{
     margin-top: 40px;
+    border-bottom: 1px solid #1F271B;
 }
 
 .container--iranita-prods-title{
-    background-color: #F3FCF0;
+    background-color: white
 }
