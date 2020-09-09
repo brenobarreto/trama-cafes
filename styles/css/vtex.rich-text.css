@@ -46,3 +46,23 @@
 .container--iranita-prods-title{
     background-color: white
 }
+
+.wrapper--descricao-fazendas{
+    margin: 0 20rem 0 20rem;
+}
+
+@media(max-width: 1100px){
+ 
+    .wrapper--descricao-fazendas{
+        margin: 0 12rem 0 12rem;
+    }
+
+}
+
+@media(max-width: 700px){
+ 
+    .wrapper--descricao-fazendas{
+        margin: 0 1rem 0 1rem;
+    }
+    
+}

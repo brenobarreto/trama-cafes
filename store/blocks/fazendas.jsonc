@@ -25,9 +25,10 @@
     },
     "rich-text#fazendas-description":{
         "props":{
-            "text": "Conheça as histórias de todas as fazendas de café com as quais trabalhamos e veja seus produtos.",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "text": "A Trama busca os melhores cafés do Brasil direto na fonte: as fazendas de café que têm amor pelo grão e produzem alguns dos melhores cafés que você vai provar. Conheça as histórias de todas essas fazendas e de quem está por trás delas, trabalhando na lavoura, fazendo a colheita e beneficiando o grão.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "descricao-fazendas"
         }
     },
     "flex-layout.row#fazendas1":{
