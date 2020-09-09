@@ -15,3 +15,57 @@
 .categoryBlockContainer--all-posts{
     color: #EE4266;
 }
+
+.postBody{
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.postContainer{
+    margin: 0 1rem 0 1rem;
+}
+
+.postChildrenContainer{
+    max-height: 30px;
+}
+
+.postMeta{
+    display: none;
+}
+
+.searchBlockContainer{
+    margin: 0 5rem 0 5rem;
+}
+
+.teaserTextOverlayMeta{
+    display: none;
+}
+
+.teaserImage--all-posts{
+
+    width:  100%;
+    max-height: 12rem;
+    object-fit: cover;
+}
+
+/* ------------- */
+/* Media Queries */
+/* ------------- */
+
+@media(min-width: 800px){
+
+    .postContainer{
+        margin: 0 10rem 0 10rem;
+    }
+
+}
+
+@media(min-width: 450px){
+
+    .postContainer{
+        margin: 0 4rem 0 4rem;
+    }
+
+}
