@@ -67,3 +67,7 @@
 .specificationsTableSpecificationHeading--pdp-spec{
     display: none;
 }
+
+.imageElement--home-slider{
+    width: 100%;
+}
