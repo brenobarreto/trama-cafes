@@ -27,7 +27,8 @@
   },
   "vtex.menu@2.x:submenu#category-cafes": {
     "props": {
-      "width": "auto"
+      "width": "auto",
+      "blockClass": "submenu-cafes"
     },
     "children": [
       "vtex.menu@2.x:menu#category-cafes"
@@ -50,7 +51,8 @@
       "iconId": null,
       "highlight": false,
       "categoryId": 3,
-      "text": "Em Grãos"
+      "text": "Em Grãos",
+      "blockClass": "header-submenu-item"
     }
   },
   "menu-item#category-cafes-moidos": {
@@ -60,7 +62,8 @@
       "iconId": null,
       "highlight": false,
       "categoryId": 4,
-      "text": "Moídos"
+      "text": "Moídos",
+      "blockClass": "header-submenu-item"
     }
   },
   "menu-item#category-cafes-capsulas": {
@@ -70,7 +73,8 @@
       "iconId": null,
       "highlight": false,
       "categoryId": 5,
-      "text": "Cápsulas"
+      "text": "Cápsulas",
+      "blockClass": "header-submenu-item"
     }
   },
   "menu-item#category-acessorios": {
