@@ -142,5 +142,17 @@
       "iconLabel": "Entrar",
       "blockClass": "header-login"
     }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "customPixelEventName": "addToCart"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 24
+    }
   }
 }
