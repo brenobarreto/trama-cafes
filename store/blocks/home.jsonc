@@ -42,7 +42,8 @@
         "phone": 1
       },
       "infinite": true,
-      "blockClass": "home-slider"
+      "blockClass": "home-slider",
+      "fullWidth": true
     }
   },
 

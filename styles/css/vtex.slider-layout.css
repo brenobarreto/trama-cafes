@@ -1,9 +1,16 @@
-.slideChildrenContainer--home-slider{
-    min-width: 100%;
-    height: auto;
+.sliderTrackContainer--home-slider{
+    max-width: 100%;
+}
+
+.sliderTrack{
+    width: 100%;
 }
 
 .imageElement--home-slider{
     min-width: 100%;
     height: auto;
+}
+
+.paginationDotsContainer--home-slider{
+    padding-bottom: 5px;
 }

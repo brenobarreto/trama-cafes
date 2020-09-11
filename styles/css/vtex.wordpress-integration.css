@@ -44,7 +44,6 @@
 }
 
 .teaserImage--all-posts{
-
     width:  100%;
     max-height: 12rem;
     object-fit: cover;
@@ -66,6 +65,20 @@
 
     .postContainer{
         margin: 0 4rem 0 4rem;
+    }
+
+}
+
+@media(min-width: 1024px){
+
+    .latestPostsBlockFlexItem :global(.vtex-card){
+        height: 34rem;
+    }
+
+    .teaserImage--blog-posts-preview-home{
+        width:  100%;
+        max-height: 16rem;
+        object-fit: cover;
     }
 
 }
