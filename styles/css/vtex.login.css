@@ -1,3 +1,3 @@
-/* .buttonLink{
-
-} */
+.buttonLink :global(.vtex-button):hover{
+    background-color: #f3fcf0;
+}

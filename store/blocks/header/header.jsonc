@@ -61,7 +61,8 @@
   "search-bar#home":{
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "blockClass": "search-bar-home"
     }
   },
   "flex-layout.col#logo-desktop": {
@@ -101,7 +102,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login#mobile",
+      "login",
       "minicart.v2"
     ],
     "props": {
@@ -141,17 +142,18 @@
     "props":{
       "iconLabel": "Entrar",
       "blockClass": "header-login",
-      "logInButtonBehavior": "link"
-    }
-  },
-  "login#mobile":{
-    "props":{
-      "blockClass": "header-login-mobile",
       "logInButtonBehavior": "link",
-      "showIconProfile": true,
-      "hideIconLabel": true
+      "showIconProfile": true
     }
   },
+  // "login#mobile":{
+  //   "props":{
+  //     "blockClass": "header-login-mobile",
+  //     "logInButtonBehavior": "link",
+  //     "showIconProfile": true,
+  //     "hideIconLabel": true
+  //   }
+  // },
   "minicart.v2": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
