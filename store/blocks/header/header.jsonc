@@ -101,7 +101,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
+      "login#mobile",
       "minicart.v2"
     ],
     "props": {
@@ -140,7 +140,16 @@
   "login":{
     "props":{
       "iconLabel": "Entrar",
-      "blockClass": "header-login"
+      "blockClass": "header-login",
+      "logInButtonBehavior": "link"
+    }
+  },
+  "login#mobile":{
+    "props":{
+      "blockClass": "header-login-mobile",
+      "logInButtonBehavior": "link",
+      "showIconProfile": true,
+      "hideIconLabel": true
     }
   },
   "minicart.v2": {

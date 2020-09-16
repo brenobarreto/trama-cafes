@@ -58,8 +58,23 @@
     margin-bottom: 4rem;
 }
 
+.flexRow--flex-info{
+    margin: 30px 40px 0 40px;
+}
+
+/* .container--flex-info{
+    margin-top: 20px;
+
+} */
+
 @media(min-width:800px){
     .flexRow--institucional-body{
         margin: 0 10rem 0 10rem;
+    }
+}
+
+@media(max-width:800px){
+    .flexRow--flex-info{
+        display: none;
     }
 }

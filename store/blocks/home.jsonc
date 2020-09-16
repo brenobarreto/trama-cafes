@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "list-context.image-list#main-banner",
+      "flex-layout.row#info",
       "rich-text#shelf-novidades",
       "search-result-layout.customQuery#home-novidades",
       "rich-text#shelf-ofertas",
@@ -47,6 +48,21 @@
     }
   },
 
+  /*----INFO STRIPE----*/
+
+  "flex-layout.row#info":{
+    "children": ["image#tripa-info"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "flex-info"
+    }
+  },
+
+  "image#tripa-info":{
+    "props": {
+      "src": "https://tramacafes.vteximg.com.br/arquivos/tripa-info-branca.png"
+    }
+  },
 
   /*----TITLE NOVIDADES----*/
 
