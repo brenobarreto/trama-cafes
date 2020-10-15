@@ -30,7 +30,7 @@
     "rich-text#title-sobre": {
       "props": {
         "text":
-        "# Vendemos café de verdade.",
+        "# Vendemos café. De verdade.",
         "blockClass": "sobre-title"
       }
     },
@@ -46,7 +46,7 @@
   
     "rich-text#sobre": {
       "props": {
-        "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+        "text": "Na Trama Cafés, queremos popularizar os melhores cafés do Brasil. Levamos cafés especiais direto da fazenda para a sua xícara. Nos preocupamos com a origem de cada café que vendemos para trazer qualidade ao seu dia a dia.\n\nTodos os cafés que você encontra na Trama são selecionados a dedo e representam o que há de melhor nas fazendas brasileiras. Quando você compra na Trama Cafés, seu café sai do produtor e vai direto para a sua casa. Você recebe café fresco de verdade.\n\nSomos apaixonados por café; e por isso buscamos os melhores grãos onde quer que estejam, para te oferecer diferentes tipos, métodos e sabores: seja em grãos, moído ou em cápsulas, nosso café é **sempre de verdade**, feito por pessoas de verdade e tão apaixonadas por café como nós.\n\n[Conheça as fazendas que vendem na Trama Cafés](/fazendas)\n\nGostamos tanto de café que não queremos só vender. Na Trama, você aprende sobre o universo do café, tira suas dúvidas e leva sua experiência com o café para outro nível.\n\n[Veja os posts do blog da Trama](/blog)\n\nA hora do café é a mais feliz do dia, então bota encher seu dia de horas felizes com os melhores cafés.",
         "blockClass": "about"
       }
     },
