@@ -23,14 +23,14 @@
     "props": {
       "images": [
         {
-          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
-          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
-          "description": "Promoção Café Bazilli"
+          "image": "",
+          "mobileImage": "",
+          "description": ""
         },
         {
-          "image": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli.png",
-          "mobileImage": "https://tramacafes.vteximg.com.br/arquivos/banner-cafe-bazilli-mobile.png",
-          "description": "Promoção Café Bazilli"
+          "image": "",
+          "mobileImage": "",
+          "description": ""
         }
       ]
     }
@@ -60,7 +60,7 @@
 
   "image#tripa-info":{
     "props": {
-      "src": "https://tramacafes.vteximg.com.br/arquivos/tripa-info-branca2.png"
+      "src": "https://tramacafes.vteximg.com.br/arquivos/tripa-infos.png"
     }
   },
 
