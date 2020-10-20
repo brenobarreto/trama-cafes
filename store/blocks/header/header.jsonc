@@ -25,7 +25,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "🏷️ 10% DE DESCONTO NO BOLETO À VISTA",
+      "content": "🏷️ 10% DE DESCONTO NA PRIMEIRA COMPRA",
       "blockClass": "top-notification"
     }
   },
