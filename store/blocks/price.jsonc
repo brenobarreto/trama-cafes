@@ -38,7 +38,8 @@
         "colGap": 2,
         "preserveLayoutOnMobile": true,
         "preventHorizontalStretch": true,
-        "marginBottom": 4
+        "marginBottom": 4,
+        "horizontalAlign": "center"
       },
       "children": [
         "product-selling-price#summary",

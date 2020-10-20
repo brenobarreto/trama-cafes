@@ -18,12 +18,12 @@
       "children": [
         "stack-layout#prodsum",
         "product-summary-name",
-        "product-summary-description#home",
+        // "product-summary-description#home",
         "product-rating-inline",
         "product-summary-space",
         "product-list-price#summary",
         "flex-layout.row#selling-price-savings",
-        "product-installments#summary",
+        // "product-installments#summary",
         "add-to-cart-button"
       ]
     },
@@ -37,8 +37,8 @@
     },
     "stack-layout#prodsum": {
       "children": [
-        "product-summary-image#shelf",
-        "modal-trigger#quickview"
+        "product-summary-image#shelf"
+        // "modal-trigger#quickview"
       ]
     },
   

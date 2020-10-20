@@ -62,6 +62,10 @@
     margin: 30px 40px 0 40px;
 }
 
+.priceContainer{
+    justify-content: center;
+}
+
 /* .container--flex-info{
     margin-top: 20px;
 
