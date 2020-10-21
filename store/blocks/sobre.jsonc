@@ -55,7 +55,10 @@
     "flex-layout.row#contato": {
         "children": [
           "flex-layout.col#text-contato"
-        ]
+        ],
+        "props":{
+          "blockClass": "text-contato"
+        }
       },
 
       // "image#produtor": {
@@ -87,7 +90,7 @@
 
       "rich-text#contato":{
         "props": {
-          "text": "**Whatsapp:** (21) 96687-9071\n\n**E-mail:** contato@tramacafes.com.br"
+          "text": "Estamos prontos para te ajudar no que for preciso. Nosso atendimento acontece de segunda a sexta-feira, das 9h às 18h.\n\n**Whatsapp:** (21) 96687-9071\n\n**E-mail:** contato@tramacafes.com.br"
         }
       }
   }

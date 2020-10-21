@@ -62,6 +62,10 @@
     margin: 30px 40px 0 40px;
 }
 
+.flexRow--text-contato{
+    padding-bottom: 6rem;
+}
+
 .priceContainer{
     justify-content: center;
 }
