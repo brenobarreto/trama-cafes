@@ -2,7 +2,7 @@
     "store.custom#sobre": {
       "blocks": [
         "flex-layout.row#tributo",
-        "flex-layout.row#produtores"
+        "flex-layout.row#contato"
       ]
     },
   
@@ -52,26 +52,25 @@
     },
 
 
-    "flex-layout.row#produtores": {
+    "flex-layout.row#contato": {
         "children": [
-          "flex-layout.col#text-produtor",
-          "image#produtor"
+          "flex-layout.col#text-contato"
         ]
       },
 
-      "image#produtor": {
-        "props": {
-          "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
-          "maxHeight": "",
-          "maxWidth": "",
-          "blockClass": "storePrint"
-        }
-      },
+      // "image#produtor": {
+      //   "props": {
+      //     "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+      //     "maxHeight": "",
+      //     "maxWidth": "",
+      //     "blockClass": "storePrint"
+      //   }
+      // },
 
-      "flex-layout.col#text-produtor": {
+      "flex-layout.col#text-contato": {
         "children": [
-          "rich-text#title-produtor",
-          "rich-text#sobre"
+          "rich-text#title-contato",
+          "rich-text#contato"
         ],
         "props": {
           "blockclass": "textColumn",
@@ -79,10 +78,16 @@
         }
       },
     
-      "rich-text#title-produtor": {
+      "rich-text#title-contato": {
         "props": {
-          "text": "# Direto do produtor.",
+          "text": "## Fale com a gente",
           "blockClass": "sobre-title"
+        }
+      },
+
+      "rich-text#contato":{
+        "props": {
+          "text": "**Whatsapp:** (21) 96687-9071\n\n**E-mail:** contato@tramacafes.com.br"
         }
       }
   }
