@@ -2,6 +2,8 @@
     "store.custom#fazenda-iranita":{
         "blocks":[
             "flex-layout.row#iranita-title",
+            "image#iranita-hero",
+            "flex-layout.row#iranita-main-text",
             "flex-layout.row#body-iranita1",
             "rich-text#iranita-prods-title",
             "flex-layout.row#iranita-prods",
@@ -22,29 +24,66 @@
             "text": "Fazenda Iranita",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "textColor": "#4B5446",
+            // "textColor": "c-on-base--inverted",
             "font": "t-heading-1"
         }
     },
 
-    "flex-layout.row#body-iranita1":{
+    "image#iranita-hero":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/iranita-hero2.jpg",
+            "maxHeight": "500px",
+            "blockClass": "fazenda-hero-img"
+          }
+    },
+
+    "flex-layout.row#iranita-main-text":{
         "children":[
-            "image#iranita1",
-            "flex-layout.col#iranita1"
+            "rich-text#iranita-main-text"
         ],
         "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
+            "blockClass": "fazenda-main-text"
+        }
+    },
+
+    "rich-text#iranita-main-text":{
+        "props":{
+            "text": "Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. Multi-currency and language. Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions.\n\n Serverless development platform. Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            // "textColor": "c-on-base--inverted"
+        }
+    },
+
+
+    /*---ROW 1---*/ 
+    
+    "flex-layout.row#body-iranita1":{
+        "children":[
+            "flex-layout.col#iranita1-image",
+            "flex-layout.col#iranita1-text"
+        ],
+        "props":{
+            "colGap": 9,
             "blockClass":"fazenda-body-1"
         }
     },
+
+    "flex-layout.col#iranita1-image":{
+        "children":[
+            "image#iranita1"
+        ]
+    },
     "image#iranita1":{
         "props": {
-            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
+            "src": "https://tramacafes.vteximg.com.br/arquivos/iranita-secagem.jpg",
             "maxHeight": "",
             "maxWidth": "",
             "blockClass": "storePrint"
           }
     },
-    "flex-layout.col#iranita1":{
+
+    "flex-layout.col#iranita1-text":{
         "children":[
             "rich-text#iranita1"
         ]
@@ -52,36 +91,12 @@
     "rich-text#iranita1":{
         "props":{
             "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            // "textColor": "c-on-base--inverted"
         }
     },
 
-    "flex-layout.row#body-iranita2":{
-        "children":[
-            "flex-layout.col#iranita2",
-            "image#iranita2"
-        ],
-        "props":{
-            "blockClass":"fazenda-body-2"
-        }
-    },
-    "flex-layout.col#iranita2":{
-        "children":[
-            "rich-text#iranita2"
-        ]
-    },    
-    "image#iranita2":{
-        "props": {
-            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "storePrint"
-          }
-    },
-    "rich-text#iranita2":{
-        "props":{
-            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
-        }
-    },
+
+    /*---ROW PRODS---*/ 
 
     "flex-layout.row#iranita-prods":{
         "children":[
@@ -150,5 +165,43 @@
             "width": "grow",
             "preventVerticalStretch": true
         }
+    },
+
+
+    /*---ROW 2---*/ 
+
+    "flex-layout.row#body-iranita2":{
+        "children":[
+            "flex-layout.col#iranita2-text",
+            "flex-layout.col#iranita2-image"
+        ],
+        "props":{
+            "colGap": 9,
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#iranita2-text":{
+        "children":[
+            "rich-text#iranita2"
+        ]
+    },
+    "rich-text#iranita2":{
+        "props":{
+            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+        }
+    },
+
+    "flex-layout.col#iranita2-image":{
+        "children":[
+            "image#iranita2"
+        ]
+    },
+    "image#iranita2":{
+        "props": {
+            "src": "https://tramacafes.vteximg.com.br/arquivos/iranita-produtores.jpg",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "storePrint"
+          }
     }
 }

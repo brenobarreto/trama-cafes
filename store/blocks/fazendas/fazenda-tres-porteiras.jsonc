@@ -1,21 +1,25 @@
 {
-    "store.custom#sitio-boa-vista-do-engano":{
+    "store.custom#fazenda-tres-porteiras":{
         "blocks":[
-            "flex-layout.row#sitio-boa-vista-do-engano-title",
-            "flex-layout.row#body-sitio-boa-vista-do-engano1",
-            "flex-layout.row#sitio-boa-vista-do-engano-prods",
-            "flex-layout.row#body-sitio-boa-vista-do-engano2"
+            "flex-layout.row#tres-porteiras-title",
+            "flex-layout.row#body-tres-porteiras1",
+            "rich-text#tres-porteiras-prods-title",
+            "flex-layout.row#tres-porteiras-prods",
+            "flex-layout.row#body-tres-porteiras2"
         ]
     },
 
-    "flex-layout.row#sitio-boa-vista-do-engano-title":{
+    "flex-layout.row#tres-porteiras-title":{
         "children":[
-            "rich-text#sitio-boa-vista-do-engano-title"
-        ]
-    },
-    "rich-text#sitio-boa-vista-do-engano-title":{
+            "rich-text#tres-porteiras-title"
+        ],
         "props":{
-            "text": "Sítio Boa Vista do Engano",
+            "blockClass":"fazenda-title"
+        }
+    },
+    "rich-text#tres-porteiras-title":{
+        "props":{
+            "text": "Fazenda tres-porteiras",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "textColor": "#4B5446",
@@ -23,13 +27,16 @@
         }
     },
 
-    "flex-layout.row#body-sitio-boa-vista-do-engano1":{
+    "flex-layout.row#body-tres-porteiras1":{
         "children":[
-            "image#sitio-boa-vista-do-engano1",
-            "flex-layout.col#sitio-boa-vista-do-engano1"
-        ]
+            "image#tres-porteiras1",
+            "flex-layout.col#tres-porteiras1"
+        ],
+        "props":{
+            "blockClass":"fazenda-body-1"
+        }
     },
-    "image#sitio-boa-vista-do-engano1":{
+    "image#tres-porteiras1":{
         "props": {
             "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
             "maxHeight": "",
@@ -37,29 +44,32 @@
             "blockClass": "storePrint"
           }
     },
-    "flex-layout.col#sitio-boa-vista-do-engano1":{
+    "flex-layout.col#tres-porteiras1":{
         "children":[
-            "rich-text#sitio-boa-vista-do-engano1"
+            "rich-text#tres-porteiras1"
         ]
     },
-    "rich-text#sitio-boa-vista-do-engano1":{
+    "rich-text#tres-porteiras1":{
         "props":{
             "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
         }
     },
 
-    "flex-layout.row#body-sitio-boa-vista-do-engano2":{
+    "flex-layout.row#body-tres-porteiras2":{
         "children":[
-            "flex-layout.col#sitio-boa-vista-do-engano2",
-            "image#sitio-boa-vista-do-engano2"
-        ]
+            "flex-layout.col#tres-porteiras2",
+            "image#tres-porteiras2"
+        ],
+        "props":{
+            "blockClass":"fazenda-body-2"
+        }
     },
-    "flex-layout.col#sitio-boa-vista-do-engano2":{
+    "flex-layout.col#tres-porteiras2":{
         "children":[
-            "rich-text#sitio-boa-vista-do-engano2"
+            "rich-text#tres-porteiras2"
         ]
     },    
-    "image#sitio-boa-vista-do-engano2":{
+    "image#tres-porteiras2":{
         "props": {
             "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
             "maxHeight": "",
@@ -67,41 +77,52 @@
             "blockClass": "storePrint"
           }
     },
-    "rich-text#sitio-boa-vista-do-engano2":{
+    "rich-text#tres-porteiras2":{
         "props":{
             "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
         }
     },
 
-    "flex-layout.row#sitio-boa-vista-do-engano-prods":{
+    "flex-layout.row#tres-porteiras-prods":{
         "children":[
-            "search-result-layout.customQuery#sitio-boa-vista-do-engano"
-        ]
+            "search-result-layout.customQuery#tres-porteiras"
+        ],
+        "props":{
+            "blockClass": "fazenda-prods"
+        }
     },
-    "search-result-layout.customQuery#sitio-boa-vista-do-engano": {
+    "rich-text#tres-porteiras-prods-title":{
+        "props":{
+            "text": "Cafés da Fazenda tres-porteiras",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-3",
+            "blockClass": "tres-porteiras-prods-title"
+
+        }
+    },
+    "search-result-layout.customQuery#tres-porteiras": {
         "blocks": [
-            "search-result-layout.desktop#sitio-boa-vista-do-engano",
+            "search-result-layout.desktop#tres-porteiras",
             "search-result-layout.mobile",
             "search-not-found-layout"
         ],
         "props": {
             "querySchema": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "queryField": "Caf%C3%A9%20Bazilli",
+            "skusFilter": "ALL_AVAILABLE",
+            "queryField": "Caf%C3%A9%20tres-porteiras",
             "mapField": "b",
             "simulationBehavior": "default",
-            "maxItemsPerPage": 5,
+            "maxItemsPerPage": 15,
             "orderByField": "OrderByTopSaleDESC",
             "hideUnavailableItems": true
-            // "hiddenFacets": {
-            //   "brands": "true"
-            // }
-            }
+            }        
         }
     },
-    "search-result-layout.desktop#sitio-boa-vista-do-engano": {
+    "search-result-layout.desktop#tres-porteiras": {
         "children": [
-            "flex-layout.row#result-sitio-boa-vista-do-engano"
+            "flex-layout.row#result-tres-porteiras"
         ],
         "props": {
             "pagination": "show-more",
@@ -112,14 +133,14 @@
             }
         }
     },
-    "flex-layout.row#result-sitio-boa-vista-do-engano": {
-        "children": ["flex-layout.col#content-sitio-boa-vista-do-engano"],
+    "flex-layout.row#result-tres-porteiras": {
+        "children": ["flex-layout.col#content-tres-porteiras"],
         "props": {
             "preventHorizontalStretch": true,
             "fullWidth": true
         }
     },
-    "flex-layout.col#content-sitio-boa-vista-do-engano": {
+    "flex-layout.col#content-tres-porteiras": {
         "children": [
             "flex-layout.row#fetchprevious",
             "flex-layout.row#products",
