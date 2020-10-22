@@ -39,25 +39,26 @@
     box-shadow: 0 0 14px rgba(33,33,33,.2); 
 }
 
-/* .flexRow--fazenda-title{
+.flexRow--fazenda-title{
     background-color:#1F271B;
 }
 
-.flexRow--fazenda-hero,
-.flexRow--fazenda-main-text{
+/*
+.flexRow--fazenda-hero{
     background-color:#F1FDEB;
 } */
 
-.flexRow--fazenda-body-1{
-    /* background-color:#F1FDEB; */
-    padding-bottom: 6rem;
+.flexRow--fazenda-main-text{
+    background-color:#1F271B;
 }
 
-.flexRow--fazenda-body-2{
-    /* background-color: #F1FDEB; */
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
+/* .flexRow--fazenda-body-1{
+    background-color:#1F271B;
+} */
+
+/* .flexRow--fazenda-body-2{
+    background-color: #F1FDEB;
+} */
 
 .flexRow--row-fazendas{
     margin-bottom: 4rem;

@@ -24,7 +24,7 @@
             "text": "Fazenda Iranita",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            // "textColor": "c-on-base--inverted",
+            "textColor": "c-on-base--inverted",
             "font": "t-heading-1"
         }
     },
@@ -39,19 +39,31 @@
 
     "flex-layout.row#iranita-main-text":{
         "children":[
+            "flex-layout.col#main-text"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 9,
+            "blockClass": "fazenda-main-text"
+        }
+    },
+
+    "flex-layout.col#main-text":{
+        "children":[
             "rich-text#iranita-main-text"
         ],
         "props":{
-            "marginTop": 9,
-            "marginBottom": 9,
-            "blockClass": "fazenda-main-text"
+            "marginLeft": 10,
+            "marginRight": 10,
+            "blockClass": "fazenda-main-text-col"
         }
     },
 
     "rich-text#iranita-main-text":{
         "props":{
-            "text": "Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. Multi-currency and language. Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions.\n\n Serverless development platform. Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
-            // "textColor": "c-on-base--inverted"
+            "text": "Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. Multi-currency and language. Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions.\n\n Serverless development platform. Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "fazenda-main-text-text"
         }
     },
 
@@ -64,7 +76,10 @@
             "flex-layout.col#iranita1-text"
         ],
         "props":{
+            "paddingTop": 10,
+            "paddingBottom": 10,
             "colGap": 9,
+            "fullWidth": true,
             "blockClass":"fazenda-body-1"
         }
     },
@@ -77,16 +92,20 @@
     "image#iranita1":{
         "props": {
             "src": "https://tramacafes.vteximg.com.br/arquivos/iranita-secagem.jpg",
-            "maxHeight": "",
+            "maxHeight": "650px",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": "fazenda-img1"
           }
     },
 
     "flex-layout.col#iranita1-text":{
         "children":[
             "rich-text#iranita1"
-        ]
+        ],
+        "props":{
+            "marginRight": 10,
+            "verticalAlign": "middle"
+        }
     },
     "rich-text#iranita1":{
         "props":{
@@ -176,14 +195,21 @@
             "flex-layout.col#iranita2-image"
         ],
         "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
             "colGap": 9,
+            "fullWidth": true,
             "blockClass":"fazenda-body-2"
         }
     },
     "flex-layout.col#iranita2-text":{
         "children":[
             "rich-text#iranita2"
-        ]
+        ],
+        "props":{
+            "marginLeft": 10,
+            "verticalAlign": "middle"
+        }
     },
     "rich-text#iranita2":{
         "props":{
@@ -199,9 +225,9 @@
     "image#iranita2":{
         "props": {
             "src": "https://tramacafes.vteximg.com.br/arquivos/iranita-produtores.jpg",
-            "maxHeight": "",
+            "maxHeight": "650px",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": "fazenda-img2"
           }
     }
 }
