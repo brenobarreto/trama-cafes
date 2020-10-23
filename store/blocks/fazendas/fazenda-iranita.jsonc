@@ -4,6 +4,7 @@
             "flex-layout.row#iranita-title",
             "image#iranita-hero",
             "flex-layout.row#iranita-main-text",
+            "flex-layout.row#iranita-stats",
             "flex-layout.row#body-iranita1",
             "rich-text#iranita-prods-title",
             "flex-layout.row#iranita-prods",
@@ -61,12 +62,155 @@
 
     "rich-text#iranita-main-text":{
         "props":{
-            "text": "Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. Multi-currency and language. Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions.\n\n Serverless development platform. Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+            "text": "A Fazenda Iranita está localizada em Purilândia, 2º distrito de Porciúncula, no estado do Rio de Janeiro. Foi criada em 1993 e recebeu o nome Sítio Iranita a partir da união dos nomes Irany e Nita, pais do proprietário, Olympio Matheus Ribeiro.\n\nA partir de 2005, já sob comando de Ana Regina e Suhail, a fazenda passou a investir na qualidade do café, focando em um trabalho cuidadoso desde a lavoura até o beneficiamento e as etapas finais de preparação do grão.\n\nTodos os cafés produzidos na fazenda são **100% Arábica**. A torra é feita sempre a partir de cada pedido. Ou seja, você pode ter certeza de que vai sempre receber seu café o mais fresco possível, direto das mãos da Ana Regina e do Suhail.",
             "textColor": "c-on-base--inverted",
             "blockClass": "fazenda-main-text-text"
         }
     },
 
+
+    /*---ROW STATS---*/ 
+
+    "flex-layout.row#iranita-stats":{
+        "children":[
+            "flex-layout.col#stat1",
+            "flex-layout.col#stat2",
+            "flex-layout.col#stat3",
+            "flex-layout.col#stat4"
+        ],
+        "props":{
+            "marginTop": 9,
+            // "paddingLeft": 7,
+            // "paddingRight": 7,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "colGap": 10
+        }
+    },
+    "flex-layout.col#stat1":{
+        "children":[
+            "flex-layout.row#stat1-img",
+            "flex-layout.row#stat1-text"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat2":{
+        "children":[
+            "flex-layout.row#stat2-img",
+            "flex-layout.row#stat2-text"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat3":{
+        "children":[
+            "flex-layout.row#stat3-img",
+            "flex-layout.row#stat3-text"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat4":{
+        "children":[
+            "flex-layout.row#stat4-img",
+            "flex-layout.row#stat4-text"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#stat1-img":{
+        "children":[
+            "image#stat1"
+        ]
+    },
+    "flex-layout.row#stat1-text":{
+        "children":[
+            "rich-text#stat1"
+        ]
+    },
+    "image#stat1":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-estado.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat1":{
+        "props":{
+            "text": "Porciúncula/RJ"
+        }
+    },
+
+    "flex-layout.row#stat2-img":{
+        "children":[
+            "image#stat2"
+        ]
+    },
+    "flex-layout.row#stat2-text":{
+        "children":[
+            "rich-text#stat2"
+        ]
+    },
+    "image#stat2":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-altitude.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat2":{
+        "props":{
+            "text": "400m - 600m"
+        }
+    },
+
+    "flex-layout.row#stat3-img":{
+        "children":[
+            "image#stat3"
+        ]
+    },
+    "flex-layout.row#stat3-text":{
+        "children":[
+            "rich-text#stat3"
+        ]
+    },
+    "image#stat3":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-area.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat3":{
+        "props":{
+            "text": "74ha"
+        }
+    },
+
+    "flex-layout.row#stat4-img":{
+        "children":[
+            "image#stat1"
+        ]
+    },
+    "flex-layout.row#stat4-text":{
+        "children":[
+            "rich-text#stat4"
+        ]
+    },
+    "image#stat4":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-variedades.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat4":{
+        "props":{
+            "text": "Catauí Vermelho\nCatauí Amarelo"
+        }
+    },
 
     /*---ROW 1---*/ 
     
@@ -76,7 +220,7 @@
             "flex-layout.col#iranita1-text"
         ],
         "props":{
-            "paddingTop": 10,
+            "paddingTop": 9,
             "paddingBottom": 10,
             "colGap": 9,
             "fullWidth": true,
@@ -109,7 +253,7 @@
     },
     "rich-text#iranita1":{
         "props":{
-            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            "text": "Na Fazenda Iranita, a colheita é realizada diariamente sobre pano. Depois, os grãos são lavados, separados e despolpados. Por fim, acontece a secagem em terreiro de pedra, estufa ou terreiro suspenso, onde os grãos são espalhados em camadas finas e revolvidos constantemente.\n\nO resultado é um café encorpado, suave e com acidez equilibrada.\n\nA Fazenda Iranita tem 74 hectares e mantém metade de sua área com mata nativa, o que contribui para a conservação das nascentes e a recuperação da mata ciliar.\n\nAlém disso, os proprietários trabalham em parceria com trabalhadores da comunidade local, estimulando a melhoria da qualidade de vida das famílias desses trabalhadores."
             // "textColor": "c-on-base--inverted"
         }
     },
@@ -213,7 +357,7 @@
     },
     "rich-text#iranita2":{
         "props":{
-            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            "text": "O Café Iranita possui o Selo da Agricultura Familiar, o Selo Sou do Rio e o Selo da BSCA (Associação Brasileira de Cafés Especiais).\n\nEm 2016, recebeu o Selo Top 100 da Gastronomia do Rio de Janeiro, concedido pela ABRESI (Associação Brasileira de Gastronomia, Hospedagem e Turismo).\n\nO Café Iranita também é protagonista no esforço por dar visibilidade ao papel da mulher na cafeicultura. Em 2017, Ana Regina recebeu o Prêmio Estadual Sebrae Mulher de Negócios na categoria Produtora Rural; e em 2018, o 1º Prêmio Mulheres do Agro, patrocinado pela Bayer.\n\nAlém disso, faz parte da Aliança Internacional das Mulheres do Café – IWCA Brasil (International Women’s Coffee Alliance)."
         }
     },
 

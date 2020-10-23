@@ -92,3 +92,7 @@
     vertical-align: bottom;
     border-radius: 10px;
 }
+
+.imageElement--stat-icon{
+    max-width: 70px;
+}
