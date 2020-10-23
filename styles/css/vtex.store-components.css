@@ -90,7 +90,14 @@
     width:  100%;
     object-fit: cover;
     vertical-align: bottom;
-    border-radius: 10px;
+}
+
+.imageElement--fazenda-img1{
+    border-radius: 0 10px 10px 0;
+}
+
+.imageElement--fazenda-img2{
+    border-radius: 10px 0 0 10px;
 }
 
 .imageElement--stat-icon{

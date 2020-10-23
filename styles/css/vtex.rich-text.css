@@ -13,6 +13,11 @@
     font-weight: 300;
 }
 
+.paragraph--fazenda-stats-text{
+    font-weight: bold;
+    color: #517C96;
+}
+
 
 /*---HOME---*/
 .paragraph--home-shelf-title-novidades{

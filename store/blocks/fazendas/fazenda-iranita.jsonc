@@ -142,7 +142,8 @@
     },
     "rich-text#stat1":{
         "props":{
-            "text": "Porciúncula/RJ"
+            "text": "Porciúncula/RJ",
+            "blockClass": "fazenda-stats-text"
         }
     },
 
@@ -164,7 +165,8 @@
     },
     "rich-text#stat2":{
         "props":{
-            "text": "400m - 600m"
+            "text": "400m - 600m",
+            "blockClass": "fazenda-stats-text"
         }
     },
 
@@ -186,7 +188,8 @@
     },
     "rich-text#stat3":{
         "props":{
-            "text": "74ha"
+            "text": "74ha",
+            "blockClass": "fazenda-stats-text"
         }
     },
 
@@ -208,7 +211,9 @@
     },
     "rich-text#stat4":{
         "props":{
-            "text": "Catauí Vermelho\nCatauí Amarelo"
+            "text": "Catauí Vermelho\nCatauí Amarelo",
+            "textAlignment": "CENTER",
+            "blockClass": "fazenda-stats-text"
         }
     },
 
@@ -326,7 +331,8 @@
         ],
         "props": {
             "width": "grow",
-            "preventVerticalStretch": true
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
         }
     },
 

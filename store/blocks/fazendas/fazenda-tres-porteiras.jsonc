@@ -2,6 +2,9 @@
     "store.custom#fazenda-tres-porteiras":{
         "blocks":[
             "flex-layout.row#tres-porteiras-title",
+            "image#tres-porteiras-hero",
+            "flex-layout.row#tres-porteiras-main-text",
+            "flex-layout.row#tres-porteiras-stats",
             "flex-layout.row#body-tres-porteiras1",
             "rich-text#tres-porteiras-prods-title",
             "flex-layout.row#tres-porteiras-prods",
@@ -19,69 +22,249 @@
     },
     "rich-text#tres-porteiras-title":{
         "props":{
-            "text": "Fazenda tres-porteiras",
+            "text": "Fazenda Três Porteiras",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "textColor": "#4B5446",
+            "textColor": "c-on-base--inverted",
             "font": "t-heading-1"
         }
     },
 
-    "flex-layout.row#body-tres-porteiras1":{
-        "children":[
-            "image#tres-porteiras1",
-            "flex-layout.col#tres-porteiras1"
-        ],
-        "props":{
-            "blockClass":"fazenda-body-1"
-        }
-    },
-    "image#tres-porteiras1":{
+    "image#tres-porteiras-hero":{
         "props": {
-            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
-            "maxHeight": "",
-            "maxWidth": "",
-            "blockClass": "storePrint"
+            "src": "https://tramacafes.vtexassets.com/arquivos/tres-porteiras-hero3.png",
+            "maxHeight": "500px",
+            "blockClass": "fazenda-hero-img"
           }
     },
-    "flex-layout.col#tres-porteiras1":{
+
+    "flex-layout.row#tres-porteiras-main-text":{
         "children":[
-            "rich-text#tres-porteiras1"
-        ]
-    },
-    "rich-text#tres-porteiras1":{
+            "flex-layout.col#main-text-tres-porteiras"
+        ],
         "props":{
-            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            "paddingTop": 9,
+            "paddingBottom": 9,
+            "blockClass": "fazenda-main-text"
         }
     },
 
-    "flex-layout.row#body-tres-porteiras2":{
+    "flex-layout.col#main-text-tres-porteiras":{
         "children":[
-            "flex-layout.col#tres-porteiras2",
-            "image#tres-porteiras2"
+            "rich-text#tres-porteiras-main-text"
         ],
         "props":{
-            "blockClass":"fazenda-body-2"
+            "marginLeft": 10,
+            "marginRight": 10,
+            "blockClass": "fazenda-main-text-col"
         }
     },
-    "flex-layout.col#tres-porteiras2":{
+
+    "rich-text#tres-porteiras-main-text":{
+        "props":{
+            "text": "A Fazenda Três Porteiras é onde o casal Maria Helena e Pedro Brunelli produzem o Café Brunelli. Fica localizada na zona rural de Ingaí, próximo à cidade de Lavras, no sul de Minas Gerais.\n\nCom altitude acima dos 1000 metros e microclima privilegiado, a fazenda foi onde a médica e o engenheiro de São Paulo decidiram morar no final dos anos 1980 - ambos em busca da vida tranquila do campo. Hoje, se dedicam à produção responsável e sustentável de um café especial de qualidade superior, certificado pelo Programa de Certificação da Emater/IMA Certifica Minas e pela certificadora internacional UTZ.",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "fazenda-main-text-text"
+        }
+    },
+
+
+    /*---ROW STATS---*/ 
+
+    "flex-layout.row#tres-porteiras-stats":{
         "children":[
-            "rich-text#tres-porteiras2"
+            "flex-layout.col#stat1-tres-porteiras",
+            "flex-layout.col#stat2-tres-porteiras",
+            "flex-layout.col#stat3-tres-porteiras",
+            "flex-layout.col#stat4-tres-porteiras"
+        ],
+        "props":{
+            "marginTop": 9,
+            // "paddingLeft": 7,
+            // "paddingRight": 7,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "colGap": 10
+        }
+    },
+    "flex-layout.col#stat1-tres-porteiras":{
+        "children":[
+            "flex-layout.row#stat1-img-tres-porteiras",
+            "flex-layout.row#stat1-text-tres-porteiras"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat2-tres-porteiras":{
+        "children":[
+            "flex-layout.row#stat2-img-tres-porteiras",
+            "flex-layout.row#stat2-text-tres-porteiras"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat3-tres-porteiras":{
+        "children":[
+            "flex-layout.row#stat3-img-tres-porteiras",
+            "flex-layout.row#stat3-text-tres-porteiras"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#stat4-tres-porteiras":{
+        "children":[
+            "flex-layout.row#stat4-img-tres-porteiras",
+            "flex-layout.row#stat4-text-tres-porteiras"
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+
+    "flex-layout.row#stat1-img-tres-porteiras":{
+        "children":[
+            "image#stat1-tres-porteiras"
         ]
-    },    
-    "image#tres-porteiras2":{
+    },
+    "flex-layout.row#stat1-text-tres-porteiras":{
+        "children":[
+            "rich-text#stat1-tres-porteiras"
+        ]
+    },
+    "image#stat1-tres-porteiras":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-estado.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat1-tres-porteiras":{
+        "props":{
+            "text": "Ingaí/MG",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat2-img-tres-porteiras":{
+        "children":[
+            "image#stat2-tres-porteiras"
+        ]
+    },
+    "flex-layout.row#stat2-text-tres-porteiras":{
+        "children":[
+            "rich-text#stat2-tres-porteiras"
+        ]
+    },
+    "image#stat2-tres-porteiras":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-altitude.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat2-tres-porteiras":{
+        "props":{
+            "text": "1000m",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat3-img-tres-porteiras":{
+        "children":[
+            "image#stat3-tres-porteiras"
+        ]
+    },
+    "flex-layout.row#stat3-text-tres-porteiras":{
+        "children":[
+            "rich-text#stat3-tres-porteiras"
+        ]
+    },
+    "image#stat3-tres-porteiras":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-area.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat3-tres-porteiras":{
+        "props":{
+            "text": "___",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat4-img-tres-porteiras":{
+        "children":[
+            "image#stat1-tres-porteiras"
+        ]
+    },
+    "flex-layout.row#stat4-text-tres-porteiras":{
+        "children":[
+            "rich-text#stat4-tres-porteiras"
+        ]
+    },
+    "image#stat4-tres-porteiras":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-variedades.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat4-tres-porteiras":{
+        "props":{
+            "text": "Catauí Vermelho\nCatauí Amarelo",
+            "textAlignment": "CENTER",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    /*---ROW 1---*/ 
+    
+    "flex-layout.row#body-tres-porteiras1":{
+        "children":[
+            "flex-layout.col#tres-porteiras1-image",
+            "flex-layout.col#tres-porteiras1-text"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 10,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-1"
+        }
+    },
+
+    "flex-layout.col#tres-porteiras1-image":{
+        "children":[
+            "image#tres-porteiras1"
+        ]
+    },
+    "image#tres-porteiras1":{
         "props": {
-            "src": "https://tramacafes.vteximg.com.br/arquivos/direto-do-produtor.jpg",
-            "maxHeight": "",
+            "src": "https://tramacafes.vtexassets.com/arquivos/tres-porteiras-produtores.png",
+            "maxHeight": "650px",
             "maxWidth": "",
-            "blockClass": "storePrint"
+            "blockClass": "fazenda-img1"
           }
     },
-    "rich-text#tres-porteiras2":{
+
+    "flex-layout.col#tres-porteiras1-text":{
+        "children":[
+            "rich-text#tres-porteiras1"
+        ],
         "props":{
-            "text": "**Optimized store framework** \n\n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n\n\n **Multi-currency and language** \n\n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n\n\n **Serverless development platform** \n\n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever."
+            "marginRight": 10,
+            "verticalAlign": "middle"
         }
     },
+    "rich-text#tres-porteiras1":{
+        "props":{
+            "text": "A Fazenda Três Porteiras fica às margens da Estrada Real. Produz as variedades Catuaí Vermelho 99 e 144 e Catucaí Amarelo, ambas da espécie Arábica. As plantas recebem rigorosos controles nutricionais e todo o processo conta com total rastreabilidade.\n\nO processo de secagem é o natural, e o grão que resulta de todo esse cuidado tem sabor equilibrado, acidez média, corpo denso e cremoso. Os aromas são frutados, com notas de caramelo e finalização longa e doce.\n\nO casal de proprietários faz questão de trabalhar em conjunto com a comunidade local e adota práticas de preservação do meio ambiente. Sua missão é produzir com responsabilidade e sustentabilidade, proporcionando ao consumidor final um café de características únicas e qualidade superior."
+            // "textColor": "c-on-base--inverted"
+        }
+    },
+
+
+    /*---ROW PRODS---*/ 
 
     "flex-layout.row#tres-porteiras-prods":{
         "children":[
@@ -93,7 +276,7 @@
     },
     "rich-text#tres-porteiras-prods-title":{
         "props":{
-            "text": "Cafés da Fazenda tres-porteiras",
+            "text": "Cafés da Fazenda Três Porteiras",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "textColor": "#4B5446",
@@ -111,7 +294,7 @@
         "props": {
             "querySchema": {
             "skusFilter": "ALL_AVAILABLE",
-            "queryField": "Caf%C3%A9%20tres-porteiras",
+            "queryField": "Caf%C3%A9%20Brunelli",
             "mapField": "b",
             "simulationBehavior": "default",
             "maxItemsPerPage": 15,
@@ -148,7 +331,53 @@
         ],
         "props": {
             "width": "grow",
-            "preventVerticalStretch": true
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
         }
+    },
+
+
+    /*---ROW 2---*/ 
+
+    "flex-layout.row#body-tres-porteiras2":{
+        "children":[
+            "flex-layout.col#tres-porteiras2-text",
+            "flex-layout.col#tres-porteiras2-image"
+        ],
+        "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#tres-porteiras2-text":{
+        "children":[
+            "rich-text#tres-porteiras2"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#tres-porteiras2":{
+        "props":{
+            "text": "O café Brunelli é produzido na Fazenda Três Porteiras com foco em qualidade. O trabalho duro dos proprietários, que deixaram a cidade pela vida no campo, rendeu um produto que hoje é reconhecido e certificado pelo Programa de Certificação da Emater/IMA e pela certificadora internacional UTZ.\n\nSão certificações que garantem ao consumidor final que o trabalho por trás do produto está constantemente focado em preocupações como preservação ambiental, a segurança do trabalhador, segurança alimentar e a rastreabilidade do café ao longo de toda a cadeia de produção.\n\nAo comprar o Café Brunelli, nossos clientes têm sempre a segurança de que receberão um produto feito criado com muito cuidado, suor e amor pelo café de qualidade."
+        }
+    },
+
+    "flex-layout.col#tres-porteiras2-image":{
+        "children":[
+            "image#tres-porteiras2"
+        ]
+    },
+    "image#tres-porteiras2":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/tres-porteiras-secagem.png",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img2"
+          }
     }
 }
