@@ -31,6 +31,9 @@
     },
     "store.custom#fazenda-tres-porteiras":{
         "path": "/fazenda-tres-porteiras"
+    },
+    "store.custom#fazenda-ipomeia":{
+        "path": "/fazenda-ipomeia"
     }
 }
 

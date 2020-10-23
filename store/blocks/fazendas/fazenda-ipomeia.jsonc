@@ -1,0 +1,387 @@
+{
+    "store.custom#fazenda-ipomeia":{
+        "blocks":[
+            "flex-layout.row#ipomeia-title",
+            "image#ipomeia-hero",
+            "flex-layout.row#ipomeia-main-text",
+            "flex-layout.row#ipomeia-stats",
+            "flex-layout.row#body-ipomeia1",
+            "rich-text#ipomeia-prods-title",
+            "flex-layout.row#ipomeia-prods",
+            "flex-layout.row#body-ipomeia2"
+        ]
+    },
+
+    "flex-layout.row#ipomeia-title":{
+        "children":[
+            "rich-text#ipomeia-title"
+        ],
+        "props":{
+            "blockClass":"fazenda-title"
+        }
+    },
+    "rich-text#ipomeia-title":{
+        "props":{
+            "text": "Fazenda Ipoméia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-base--inverted",
+            "font": "t-heading-1"
+        }
+    },
+
+    "image#ipomeia-hero":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/ipomeia-hero2.png",
+            "maxHeight": "500px",
+            "blockClass": "fazenda-hero-img"
+          }
+    },
+
+    "flex-layout.row#ipomeia-main-text":{
+        "children":[
+            "flex-layout.col#main-text-ipomeia"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 9,
+            "blockClass": "fazenda-main-text"
+        }
+    },
+
+    "flex-layout.col#main-text-ipomeia":{
+        "children":[
+            "rich-text#ipomeia-main-text"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "marginRight": 10,
+            "blockClass": "fazenda-main-text-col"
+        }
+    },
+
+    "rich-text#ipomeia-main-text":{
+        "props":{
+            "text": "A Fazenda Ipoméia cultiva café desde 1986. Fundada junto à estrada de ferro e à Estação Ipoméia, em São Sebastião do Paraíso (MG), ela começou com 10 mil pés plantados. Hoje, tem cerca de um milhão e quinhentos mil pés de café, espalhados por 517 hectares.\n\nA fazenda fica na região da Alta Mogiana, uma das mais tradicionais regiões cafeeiras do Brasil e especializada na plantação de cafés da espécie Arábica, de qualidade superior, acidez equilibrada e aromas que remetem ao caramelo.\n\nA Fazenda Ipoméia dá origem ao Café Constantino, reconhecido pela excelência dos grãos, que se beneficiam da altitude de 1100m, além de um solo e clima ideais para o cultivo.",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "fazenda-main-text-text"
+        }
+    },
+
+
+    /*---ROW STATS---*/ 
+
+    "flex-layout.row#ipomeia-stats":{
+        "children":[
+            "flex-layout.col#stat1-ipomeia",
+            "flex-layout.col#stat2-ipomeia",
+            "flex-layout.col#stat3-ipomeia",
+            "flex-layout.col#stat4-ipomeia"
+        ],
+        "props":{
+            "marginTop": 9,
+            // "paddingLeft": 7,
+            // "paddingRight": 7,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "colGap": 10
+        }
+    },
+    "flex-layout.col#stat1-ipomeia":{
+        "children":[
+            "flex-layout.row#stat1-img-ipomeia",
+            "flex-layout.row#stat1-text-ipomeia"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat2-ipomeia":{
+        "children":[
+            "flex-layout.row#stat2-img-ipomeia",
+            "flex-layout.row#stat2-text-ipomeia"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat3-ipomeia":{
+        "children":[
+            "flex-layout.row#stat3-img-ipomeia",
+            "flex-layout.row#stat3-text-ipomeia"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat4-ipomeia":{
+        "children":[
+            "flex-layout.row#stat4-img-ipomeia",
+            "flex-layout.row#stat4-text-ipomeia"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "flex-layout.row#stat1-img-ipomeia":{
+        "children":[
+            "image#stat1-ipomeia"
+        ]
+    },
+    "flex-layout.row#stat1-text-ipomeia":{
+        "children":[
+            "rich-text#stat1-ipomeia"
+        ]
+    },
+    "image#stat1-ipomeia":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-estado.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat1-ipomeia":{
+        "props":{
+            "text": "São Sebastião do Paraíso/MG",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat2-img-ipomeia":{
+        "children":[
+            "image#stat2-ipomeia"
+        ]
+    },
+    "flex-layout.row#stat2-text-ipomeia":{
+        "children":[
+            "rich-text#stat2-ipomeia"
+        ]
+    },
+    "image#stat2-ipomeia":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-altitude.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat2-ipomeia":{
+        "props":{
+            "text": "1100m",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat3-img-ipomeia":{
+        "children":[
+            "image#stat3-ipomeia"
+        ]
+    },
+    "flex-layout.row#stat3-text-ipomeia":{
+        "children":[
+            "rich-text#stat3-ipomeia"
+        ]
+    },
+    "image#stat3-ipomeia":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-area.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat3-ipomeia":{
+        "props":{
+            "text": "517ha",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat4-img-ipomeia":{
+        "children":[
+            "image#stat4-ipomeia"
+        ]
+    },
+    "flex-layout.row#stat4-text-ipomeia":{
+        "children":[
+            "rich-text#stat4-ipomeia"
+        ]
+    },
+    "image#stat4-ipomeia":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-variedades.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat4-ipomeia":{
+        "props":{
+            "text": "Catauí Amarelo\nMundo Novo",
+            "textAlignment": "CENTER",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    /*---ROW 1---*/ 
+    
+    "flex-layout.row#body-ipomeia1":{
+        "children":[
+            "flex-layout.col#ipomeia1-image",
+            "flex-layout.col#ipomeia1-text"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 10,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-1"
+        }
+    },
+
+    "flex-layout.col#ipomeia1-image":{
+        "children":[
+            "image#ipomeia1"
+        ]
+    },
+    "image#ipomeia1":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/ipomeia-secagem.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img1"
+          }
+    },
+
+    "flex-layout.col#ipomeia1-text":{
+        "children":[
+            "rich-text#ipomeia1"
+        ],
+        "props":{
+            "marginRight": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#ipomeia1":{
+        "props":{
+            "text": "A fazenda prioriza a contratação de trabalhadores locais e está comprometida com o crescimento econômico da região da Alta Mogiana e com o desenvolvimento sociocultural da comunidade.\n\nAlém disso, a Fazenda Ipoméia direciona recursos para cuidar do meio-ambiente. Mantém uma grande área de mata preservada e protegida no Parque Nacional da Serra da Canastra, berço do importantíssimo Rio São Francisco, preserva a mata nativa e as nascentes em sua área e reutiliza a polpa descartada do café como adubo.\n\n Esses e outros cuidados renderam à fazenda certificados importantes, como o selo UTZ, que certifica as iniciativas de agricultura sustentável da fazenda."
+            // "textColor": "c-on-base--inverted"
+        }
+    },
+
+
+    /*---ROW PRODS---*/ 
+
+    "flex-layout.row#ipomeia-prods":{
+        "children":[
+            "search-result-layout.customQuery#ipomeia"
+        ],
+        "props":{
+            "blockClass": "fazenda-prods"
+        }
+    },
+    "rich-text#ipomeia-prods-title":{
+        "props":{
+            "text": "Cafés da Fazenda Ipoméia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-3",
+            "blockClass": "ipomeia-prods-title"
+
+        }
+    },
+    "search-result-layout.customQuery#ipomeia": {
+        "blocks": [
+            "search-result-layout.desktop#ipomeia",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+            "skusFilter": "ALL_AVAILABLE",
+            "queryField": "Caf%C3%A9%20Constantino",
+            "mapField": "b",
+            "simulationBehavior": "default",
+            "maxItemsPerPage": 15,
+            "orderByField": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true
+            }        
+        }
+    },
+    "search-result-layout.desktop#ipomeia": {
+        "children": [
+            "flex-layout.row#result-ipomeia"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#result-ipomeia": {
+        "children": ["flex-layout.col#content-ipomeia"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#content-ipomeia": {
+        "children": [
+            "flex-layout.row#fetchprevious",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+
+
+    /*---ROW 2---*/ 
+
+    "flex-layout.row#body-ipomeia2":{
+        "children":[
+            "flex-layout.col#ipomeia2-text",
+            "flex-layout.col#ipomeia2-image"
+        ],
+        "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#ipomeia2-text":{
+        "children":[
+            "rich-text#ipomeia2"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#ipomeia2":{
+        "props":{
+            "text": "O Café Constantino, produzido na Fazenda Ipoméia, é a prova maior da qualidade do cultivo, do beneficiamento e de todo o trabalho duro dos proprietários e da comunidade local envolvida na produção.\n\nBlend das variedades Catauí Amarelo e Mundo Novo, ambas da espécie Arábica, o Café Constantino é marcado pelo aroma de chocolate e nozes, um corpo cremoso e aveludado, acidez de frutas vermelhas maduras e sabor caramelizado."
+        }
+    },
+
+    "flex-layout.col#ipomeia2-image":{
+        "children":[
+            "image#ipomeia2"
+        ]
+    },
+    "image#ipomeia2":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/ipomeia3.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img2"
+          }
+    }
+}

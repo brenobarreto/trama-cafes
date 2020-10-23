@@ -195,7 +195,7 @@
 
     "flex-layout.row#stat4-img":{
         "children":[
-            "image#stat1"
+            "image#stat4"
         ]
     },
     "flex-layout.row#stat4-text":{

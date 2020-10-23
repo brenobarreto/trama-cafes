@@ -195,7 +195,7 @@
 
     "flex-layout.row#stat4-img-tres-porteiras":{
         "children":[
-            "image#stat1-tres-porteiras"
+            "image#stat4-tres-porteiras"
         ]
     },
     "flex-layout.row#stat4-text-tres-porteiras":{

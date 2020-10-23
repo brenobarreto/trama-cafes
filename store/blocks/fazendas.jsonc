@@ -25,7 +25,7 @@
     },
     "rich-text#fazendas-description":{
         "props":{
-            "text": "A Trama busca os melhores cafés do Brasil direto na fonte: as fazendas de café que têm amor pelo grão e produzem alguns dos melhores cafés que você vai provar. Conheça as histórias de todas essas fazendas e de quem está por trás delas, trabalhando na lavoura, fazendo a colheita e beneficiando o grão.",
+            "text": "A Trama busca os melhores cafés do Brasil direto na fonte: as fazendas de café que têm amor pelo grão e produzem alguns dos melhores cafés que você vai provar.\n\nConheça as histórias dessas fazendas e de quem está por trás delas, trabalhando na lavoura, fazendo a colheita e beneficiando o grão para levar café de verdade até a sua xícara.",
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "blockClass": "descricao-fazendas"
@@ -62,7 +62,9 @@
         "props": {
            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
            "title": "Fazenda Iranita",
-           "link": "/fazenda-iranita",
+           "link": {
+            "url":"/fazenda-iranita"
+                },
            "blockClass": "card-img-fazendas"
           }
     },
@@ -77,7 +79,9 @@
     "image#fazenda-tres-porteiras":{
         "props": {
             "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-tres-porteiras.png",
-            "link": "/fazenda-tres-porteiras",
+            "link": {
+                "url":"/fazenda-tres-porteiras"
+                    },
             "blockClass": "card-img-fazendas"
           }
     },
@@ -92,7 +96,9 @@
     "image#fazenda-ipomeia":{
         "props": {
             "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-ipomeia.png",
-            "link": "/fazenda-ipomeia",
+            "link": {
+                "url":"/fazenda-ipomeia"
+                    },
             "blockClass": "card-img-fazendas"
           }
     }
