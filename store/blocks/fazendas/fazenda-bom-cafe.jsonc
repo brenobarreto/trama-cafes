@@ -1,0 +1,387 @@
+{
+    "store.custom#fazenda-bom-cafe":{
+        "blocks":[
+            "flex-layout.row#bom-cafe-title",
+            "image#bom-cafe-hero",
+            "flex-layout.row#bom-cafe-main-text",
+            "flex-layout.row#bom-cafe-stats",
+            "flex-layout.row#body-bom-cafe1",
+            "rich-text#bom-cafe-prods-title",
+            "flex-layout.row#bom-cafe-prods",
+            "flex-layout.row#body-bom-cafe2"
+        ]
+    },
+
+    "flex-layout.row#bom-cafe-title":{
+        "children":[
+            "rich-text#bom-cafe-title"
+        ],
+        "props":{
+            "blockClass":"fazenda-title"
+        }
+    },
+    "rich-text#bom-cafe-title":{
+        "props":{
+            "text": "Fazenda Bom Café",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-base--inverted",
+            "font": "t-heading-1"
+        }
+    },
+
+    "image#bom-cafe-hero":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe-hero2.png",
+            "maxHeight": "500px",
+            "blockClass": "fazenda-hero-img"
+          }
+    },
+
+    "flex-layout.row#bom-cafe-main-text":{
+        "children":[
+            "flex-layout.col#main-text-bom-cafe"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 9,
+            "blockClass": "fazenda-main-text"
+        }
+    },
+
+    "flex-layout.col#main-text-bom-cafe":{
+        "children":[
+            "rich-text#bom-cafe-main-text"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "marginRight": 10,
+            "blockClass": "fazenda-main-text-col"
+        }
+    },
+
+    "rich-text#bom-cafe-main-text":{
+        "props":{
+            "text": "A Fazenda Ipoméia cultiva café desde 1986. Fundada junto à estrada de ferro e à Estação Ipoméia, em São Sebastião do Paraíso (MG), ela começou com 10 mil pés plantados. Hoje, tem cerca de um milhão e quinhentos mil pés de café, espalhados por 517 hectares.\n\nA fazenda fica na região da Alta Mogiana, uma das mais tradicionais regiões cafeeiras do Brasil e especializada na plantação de cafés da espécie Arábica, de qualidade superior, acidez equilibrada e aromas que remetem ao caramelo.\n\nA Fazenda Ipoméia dá origem ao Café Constantino, reconhecido pela excelência dos grãos, que se beneficiam da altitude de 1100m, além de um solo e clima ideais para o cultivo.",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "fazenda-main-text-text"
+        }
+    },
+
+
+    /*---ROW STATS---*/ 
+
+    "flex-layout.row#bom-cafe-stats":{
+        "children":[
+            "flex-layout.col#stat1-bom-cafe",
+            "flex-layout.col#stat2-bom-cafe",
+            "flex-layout.col#stat3-bom-cafe",
+            "flex-layout.col#stat4-bom-cafe"
+        ],
+        "props":{
+            "marginTop": 9,
+            // "paddingLeft": 7,
+            // "paddingRight": 7,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "colGap": 10
+        }
+    },
+    "flex-layout.col#stat1-bom-cafe":{
+        "children":[
+            "flex-layout.row#stat1-img-bom-cafe",
+            "flex-layout.row#stat1-text-bom-cafe"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat2-bom-cafe":{
+        "children":[
+            "flex-layout.row#stat2-img-bom-cafe",
+            "flex-layout.row#stat2-text-bom-cafe"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat3-bom-cafe":{
+        "children":[
+            "flex-layout.row#stat3-img-bom-cafe",
+            "flex-layout.row#stat3-text-bom-cafe"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat4-bom-cafe":{
+        "children":[
+            "flex-layout.row#stat4-img-bom-cafe",
+            "flex-layout.row#stat4-text-bom-cafe"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "flex-layout.row#stat1-img-bom-cafe":{
+        "children":[
+            "image#stat1-bom-cafe"
+        ]
+    },
+    "flex-layout.row#stat1-text-bom-cafe":{
+        "children":[
+            "rich-text#stat1-bom-cafe"
+        ]
+    },
+    "image#stat1-bom-cafe":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-estado.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat1-bom-cafe":{
+        "props":{
+            "text": "São Sebastião do Paraíso/MG",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat2-img-bom-cafe":{
+        "children":[
+            "image#stat2-bom-cafe"
+        ]
+    },
+    "flex-layout.row#stat2-text-bom-cafe":{
+        "children":[
+            "rich-text#stat2-bom-cafe"
+        ]
+    },
+    "image#stat2-bom-cafe":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-altitude.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat2-bom-cafe":{
+        "props":{
+            "text": "1100m",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat3-img-bom-cafe":{
+        "children":[
+            "image#stat3-bom-cafe"
+        ]
+    },
+    "flex-layout.row#stat3-text-bom-cafe":{
+        "children":[
+            "rich-text#stat3-bom-cafe"
+        ]
+    },
+    "image#stat3-bom-cafe":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-area.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat3-bom-cafe":{
+        "props":{
+            "text": "517ha",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat4-img-bom-cafe":{
+        "children":[
+            "image#stat4-bom-cafe"
+        ]
+    },
+    "flex-layout.row#stat4-text-bom-cafe":{
+        "children":[
+            "rich-text#stat4-bom-cafe"
+        ]
+    },
+    "image#stat4-bom-cafe":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-variedades.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat4-bom-cafe":{
+        "props":{
+            "text": "Catauí Amarelo\nMundo Novo",
+            "textAlignment": "CENTER",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    /*---ROW 1---*/ 
+    
+    "flex-layout.row#body-bom-cafe1":{
+        "children":[
+            "flex-layout.col#bom-cafe1-image",
+            "flex-layout.col#bom-cafe1-text"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 10,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-1"
+        }
+    },
+
+    "flex-layout.col#bom-cafe1-image":{
+        "children":[
+            "image#bom-cafe1"
+        ]
+    },
+    "image#bom-cafe1":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe-secagem.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img1"
+          }
+    },
+
+    "flex-layout.col#bom-cafe1-text":{
+        "children":[
+            "rich-text#bom-cafe1"
+        ],
+        "props":{
+            "marginRight": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#bom-cafe1":{
+        "props":{
+            "text": "A fazenda prioriza a contratação de trabalhadores locais e está comprometida com o crescimento econômico da região da Alta Mogiana e com o desenvolvimento sociocultural da comunidade.\n\nAlém disso, a Fazenda Ipoméia direciona recursos para cuidar do meio-ambiente. Mantém uma grande área de mata preservada e protegida no Parque Nacional da Serra da Canastra, berço do importantíssimo Rio São Francisco, preserva a mata nativa e as nascentes em sua área e reutiliza a polpa descartada do café como adubo.\n\n Esses e outros cuidados renderam à fazenda certificados importantes, como o selo UTZ, que certifica as iniciativas de agricultura sustentável da fazenda."
+            // "textColor": "c-on-base--inverted"
+        }
+    },
+
+
+    /*---ROW PRODS---*/ 
+
+    "flex-layout.row#bom-cafe-prods":{
+        "children":[
+            "search-result-layout.customQuery#bom-cafe"
+        ],
+        "props":{
+            "blockClass": "fazenda-prods"
+        }
+    },
+    "rich-text#bom-cafe-prods-title":{
+        "props":{
+            "text": "Cafés da Fazenda Bom Café",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-3",
+            "blockClass": "bom-cafe-prods-title"
+
+        }
+    },
+    "search-result-layout.customQuery#bom-cafe": {
+        "blocks": [
+            "search-result-layout.desktop#bom-cafe",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+            "skusFilter": "ALL_AVAILABLE",
+            "queryField": "Caf%C3%A9%20Buti",
+            "mapField": "b",
+            "simulationBehavior": "default",
+            "maxItemsPerPage": 15,
+            "orderByField": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true
+            }        
+        }
+    },
+    "search-result-layout.desktop#bom-cafe": {
+        "children": [
+            "flex-layout.row#result-bom-cafe"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#result-bom-cafe": {
+        "children": ["flex-layout.col#content-bom-cafe"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#content-bom-cafe": {
+        "children": [
+            "flex-layout.row#fetchprevious",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+
+
+    /*---ROW 2---*/ 
+
+    "flex-layout.row#body-bom-cafe2":{
+        "children":[
+            "flex-layout.col#bom-cafe2-text",
+            "flex-layout.col#bom-cafe2-image"
+        ],
+        "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#bom-cafe2-text":{
+        "children":[
+            "rich-text#bom-cafe2"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#bom-cafe2":{
+        "props":{
+            "text": "O Café Constantino, produzido na Fazenda Ipoméia, é a prova maior da qualidade do cultivo, do beneficiamento e de todo o trabalho duro dos proprietários e da comunidade local envolvida na produção.\n\nBlend das variedades Catauí Amarelo e Mundo Novo, ambas da espécie Arábica, o Café Constantino é marcado pelo aroma de chocolate e nozes, um corpo cremoso e aveludado, acidez de frutas vermelhas maduras e sabor caramelizado."
+        }
+    },
+
+    "flex-layout.col#bom-cafe2-image":{
+        "children":[
+            "image#bom-cafe2"
+        ]
+    },
+    "image#bom-cafe2":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe3.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img2"
+          }
+    }
+}

@@ -13,6 +13,8 @@
 .flexCol--card-fazendas{
     margin: 45px;
     padding: 5px;
+    /* flex-grow: 1; */
+    /* width: 33%; */
 }
 
 /* .flexRow--fazenda-prods{
@@ -23,6 +25,10 @@
     padding: 20px 0 50px 0;
     background-color: white
 }
+
+/* .flexRowContent--row-fazendas .stretchChildrenWidth{
+    width: 33%;
+} */
 
 .flexColChild--prod-col{
     margin-top: 1.5rem;
@@ -61,7 +67,7 @@
 } */
 
 .flexRow--row-fazendas{
-    margin-bottom: 4rem;
+    margin-bottom: 4rem
 }
 
 .flexRow--flex-info{

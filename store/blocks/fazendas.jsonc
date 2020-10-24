@@ -3,9 +3,11 @@
         "blocks":[
             "rich-text#fazendas-title",
             "flex-layout.row#fazendas-description",
-            "flex-layout.row#fazendas1"
+            "flex-layout.row#fazendas1",
+            "flex-layout.row#fazendas2"
         ]
     },
+
     "rich-text#fazendas-title":{
         "props":{
             "text": "Fazendas",
@@ -15,6 +17,7 @@
             "font": "t-heading-1"
         }
     },
+
     "flex-layout.row#fazendas-description":{
         "children":[
             "rich-text#fazendas-description"
@@ -31,6 +34,10 @@
             "blockClass": "descricao-fazendas"
         }
     },
+
+
+    /*---FAZENDAS 1---*/
+
     "flex-layout.row#fazendas1":{
         "children":[
             "flex-layout.col#fazenda-iranita",
@@ -41,6 +48,7 @@
             "blockClass": "row-fazendas"
         }
     },
+
     "flex-layout.col#fazenda-iranita":{
         "children":[
             // "info-card#fazenda-iranita"
@@ -50,14 +58,6 @@
             "blockClass": "card-fazendas"
         }
     },
-    // "info-card#fazenda-iranita":{
-    //     "props":{
-    //         "isFullModeStyle": true,
-    //         "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
-    //         "callToActionUrl": "/fazenda-iranita",
-    //         "blockClass": "card-img-fazendas"
-    //     }
-    // },
     "image#fazenda-iranita":{
         "props": {
            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
@@ -68,6 +68,7 @@
            "blockClass": "card-img-fazendas"
           }
     },
+
     "flex-layout.col#fazenda-tres-porteiras":{
         "children":[
             "image#fazenda-tres-porteiras"
@@ -85,6 +86,7 @@
             "blockClass": "card-img-fazendas"
           }
     },
+
     "flex-layout.col#fazenda-ipomeia":{
         "children":[
             "image#fazenda-ipomeia"
@@ -98,6 +100,57 @@
             "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-ipomeia.png",
             "link": {
                 "url":"/fazenda-ipomeia"
+                    },
+            "blockClass": "card-img-fazendas"
+          }
+    },
+
+
+    /*---FAZENDAS 2---*/
+
+    "flex-layout.row#fazendas2":{
+        "children":[
+            "flex-layout.col#fazenda-baoba",
+            "flex-layout.col#fazenda-bom-cafe"
+        ],
+        "props":{
+            "blockClass": "row-fazendas",
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.col#fazenda-baoba":{
+        "children":[
+            "image#fazenda-baoba"
+        ],
+        "props":{
+            "blockClass": "card-fazendas"
+        }
+    },
+    "image#fazenda-baoba":{
+        "props": {
+            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-baoba.png",
+            "link": {
+                "url":"/fazenda-baoba"
+                    },
+            "blockClass": "card-img-fazendas"
+          }
+    },
+
+    "flex-layout.col#fazenda-bom-cafe":{
+        "children":[
+            "image#fazenda-bom-cafe"
+        ],
+        "props":{
+            "blockClass": "card-fazendas"
+        }
+    },
+    "image#fazenda-bom-cafe":{
+        "props": {
+            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-bom-cafe.png",
+            "link": {
+                "url":"/fazenda-bom-cafe"
                     },
             "blockClass": "card-img-fazendas"
           }

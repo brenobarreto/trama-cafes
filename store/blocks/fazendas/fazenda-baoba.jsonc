@@ -1,0 +1,387 @@
+{
+    "store.custom#fazenda-baoba":{
+        "blocks":[
+            "flex-layout.row#baoba-title",
+            "image#baoba-hero",
+            "flex-layout.row#baoba-main-text",
+            "flex-layout.row#baoba-stats",
+            "flex-layout.row#body-baoba1",
+            "rich-text#baoba-prods-title",
+            "flex-layout.row#baoba-prods",
+            "flex-layout.row#body-baoba2"
+        ]
+    },
+
+    "flex-layout.row#baoba-title":{
+        "children":[
+            "rich-text#baoba-title"
+        ],
+        "props":{
+            "blockClass":"fazenda-title"
+        }
+    },
+    "rich-text#baoba-title":{
+        "props":{
+            "text": "Fazenda Baobá",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-base--inverted",
+            "font": "t-heading-1"
+        }
+    },
+
+    "image#baoba-hero":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/baoba_hero-min.jpg",
+            "maxHeight": "500px",
+            "blockClass": "fazenda-hero-img"
+          }
+    },
+
+    "flex-layout.row#baoba-main-text":{
+        "children":[
+            "flex-layout.col#main-text-baoba"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 9,
+            "blockClass": "fazenda-main-text"
+        }
+    },
+
+    "flex-layout.col#main-text-baoba":{
+        "children":[
+            "rich-text#baoba-main-text"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "marginRight": 10,
+            "blockClass": "fazenda-main-text-col"
+        }
+    },
+
+    "rich-text#baoba-main-text":{
+        "props":{
+            "text": "A Fazenda Baobá foi fundada em 2005 pelo então executivo do mercado financeiro Arnaldo Vieira, cujo amor pelo café foi herdado do pai — um português que nos anos 1940 veio do Porto, ainda adolescente, para trabalhar nas cafeterias do antigo centro de São Paulo.\n\nA fazenda fica situada em São Sebastião da Grama, no interior de São Paulo, com altitudes que chegam a 1400m. Atualmente, possui mais de 330 mil pés de café e uma produção anual estimada em 2400 sacas.",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "fazenda-main-text-text"
+        }
+    },
+
+
+    /*---ROW STATS---*/ 
+
+    "flex-layout.row#baoba-stats":{
+        "children":[
+            "flex-layout.col#stat1-baoba",
+            "flex-layout.col#stat2-baoba",
+            "flex-layout.col#stat3-baoba",
+            "flex-layout.col#stat4-baoba"
+        ],
+        "props":{
+            "marginTop": 9,
+            // "paddingLeft": 7,
+            // "paddingRight": 7,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "colGap": 10
+        }
+    },
+    "flex-layout.col#stat1-baoba":{
+        "children":[
+            "flex-layout.row#stat1-img-baoba",
+            "flex-layout.row#stat1-text-baoba"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat2-baoba":{
+        "children":[
+            "flex-layout.row#stat2-img-baoba",
+            "flex-layout.row#stat2-text-baoba"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat3-baoba":{
+        "children":[
+            "flex-layout.row#stat3-img-baoba",
+            "flex-layout.row#stat3-text-baoba"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#stat4-baoba":{
+        "children":[
+            "flex-layout.row#stat4-img-baoba",
+            "flex-layout.row#stat4-text-baoba"
+        ],
+        "props":{
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "flex-layout.row#stat1-img-baoba":{
+        "children":[
+            "image#stat1-baoba"
+        ]
+    },
+    "flex-layout.row#stat1-text-baoba":{
+        "children":[
+            "rich-text#stat1-baoba"
+        ]
+    },
+    "image#stat1-baoba":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-estado.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat1-baoba":{
+        "props":{
+            "text": "São Sebastião da Grama/SP",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat2-img-baoba":{
+        "children":[
+            "image#stat2-baoba"
+        ]
+    },
+    "flex-layout.row#stat2-text-baoba":{
+        "children":[
+            "rich-text#stat2-baoba"
+        ]
+    },
+    "image#stat2-baoba":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-altitude.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat2-baoba":{
+        "props":{
+            "text": "940m - 1400m",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat3-img-baoba":{
+        "children":[
+            "image#stat3-baoba"
+        ]
+    },
+    "flex-layout.row#stat3-text-baoba":{
+        "children":[
+            "rich-text#stat3-baoba"
+        ]
+    },
+    "image#stat3-baoba":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-area.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat3-baoba":{
+        "props":{
+            "text": "78ha",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    "flex-layout.row#stat4-img-baoba":{
+        "children":[
+            "image#stat4-baoba"
+        ]
+    },
+    "flex-layout.row#stat4-text-baoba":{
+        "children":[
+            "rich-text#stat4-baoba"
+        ]
+    },
+    "image#stat4-baoba":{
+        "props":{
+            "src":"https://tramacafes.vteximg.com.br/arquivos/stat-variedades.png",
+            "blockClass": "stat-icon"
+        }
+    },
+    "rich-text#stat4-baoba":{
+        "props":{
+            "text": "Obatã Vermelho\nCatucaí\nAcaiá\nMundo Novo",
+            "textAlignment": "CENTER",
+            "blockClass": "fazenda-stats-text"
+        }
+    },
+
+    /*---ROW 1---*/ 
+    
+    "flex-layout.row#body-baoba1":{
+        "children":[
+            "flex-layout.col#baoba1-image",
+            "flex-layout.col#baoba1-text"
+        ],
+        "props":{
+            "paddingTop": 9,
+            "paddingBottom": 10,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-1"
+        }
+    },
+
+    "flex-layout.col#baoba1-image":{
+        "children":[
+            "image#baoba1"
+        ]
+    },
+    "image#baoba1":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/baoba_secagem-min.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img1"
+          }
+    },
+
+    "flex-layout.col#baoba1-text":{
+        "children":[
+            "rich-text#baoba1"
+        ],
+        "props":{
+            "marginRight": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#baoba1":{
+        "props":{
+            "text": "A diversidade de tipos de café na Fazenda Baobá é grande. Atualmente, lá são plantadas oito variedades: Catucaí 2 SL Amarelo, Catucaí Amarelo, Icatu, Obatã, Mundo Novo, Bourbon Amarelo, Tupi, Acaiá e Catiguá MG2.\n\nEssas plantas se espalham pelos 78 hectares de área plantada da fazenda, que ao todo tem 580 hectares. Metade da colheita acontece pelo processo manual, e a outra metade é semi-manual.\n\nO café Baobá hoje é reconhecido como um café especial de extrema qualidade, elegante e sempre com sabores e aromas intensos.\n\nA fazenda conta ainda com uma torrefação profissional própria, que permite total controle de todas as etapas do processo, garantindo a qualidade do produto final."
+            // "textColor": "c-on-base--inverted"
+        }
+    },
+
+
+    /*---ROW PRODS---*/ 
+
+    "flex-layout.row#baoba-prods":{
+        "children":[
+            "search-result-layout.customQuery#baoba"
+        ],
+        "props":{
+            "blockClass": "fazenda-prods"
+        }
+    },
+    "rich-text#baoba-prods-title":{
+        "props":{
+            "text": "Cafés da Fazenda Baobá",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "#4B5446",
+            "font": "t-heading-3",
+            "blockClass": "baoba-prods-title"
+
+        }
+    },
+    "search-result-layout.customQuery#baoba": {
+        "blocks": [
+            "search-result-layout.desktop#baoba",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "querySchema": {
+            "skusFilter": "ALL_AVAILABLE",
+            "queryField": "Caf%C3%A9%20Baoba",
+            "mapField": "b",
+            "simulationBehavior": "default",
+            "maxItemsPerPage": 15,
+            "orderByField": "OrderByTopSaleDESC",
+            "hideUnavailableItems": true
+            }        
+        }
+    },
+    "search-result-layout.desktop#baoba": {
+        "children": [
+            "flex-layout.row#result-baoba"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "mobileLayout": {
+            "mode1": "small",
+            "mode2": "normal"
+            }
+        }
+    },
+    "flex-layout.row#result-baoba": {
+        "children": ["flex-layout.col#content-baoba"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#content-baoba": {
+        "children": [
+            "flex-layout.row#fetchprevious",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+
+
+    /*---ROW 2---*/ 
+
+    "flex-layout.row#body-baoba2":{
+        "children":[
+            "flex-layout.col#baoba2-text",
+            "flex-layout.col#baoba2-image"
+        ],
+        "props":{
+            "marginTop": 9,
+            "marginBottom": 9,
+            "colGap": 9,
+            "fullWidth": true,
+            "blockClass":"fazenda-body-2"
+        }
+    },
+    "flex-layout.col#baoba2-text":{
+        "children":[
+            "rich-text#baoba2"
+        ],
+        "props":{
+            "marginLeft": 10,
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#baoba2":{
+        "props":{
+            "text": "Entre os vários prêmios já conquistados pela fazenda, estão dois primeiros lugares entre os Melhores Cafés do Estado de São Paulo; sete prêmios no concurso Qualidade de Café do Vale da Grama; um quarto lugar no Concurso ABIC melhores Cafés do Brasil; e a primeira posição no prêmio Aldir Alves Teixeira 2014, na categoria Cereja Descascado."
+        }
+    },
+
+    "flex-layout.col#baoba2-image":{
+        "children":[
+            "image#baoba2"
+        ]
+    },
+    "image#baoba2":{
+        "props": {
+            "src": "https://tramacafes.vtexassets.com/arquivos/baoba-torrefacao-min.jpg",
+            "maxHeight": "650px",
+            "maxWidth": "",
+            "blockClass": "fazenda-img2"
+          }
+    }
+}
