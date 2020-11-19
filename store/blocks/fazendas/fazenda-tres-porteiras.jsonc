@@ -188,7 +188,7 @@
     },
     "rich-text#stat3-tres-porteiras":{
         "props":{
-            "text": "___",
+            "text": "250 ha",
             "blockClass": "fazenda-stats-text"
         }
     },

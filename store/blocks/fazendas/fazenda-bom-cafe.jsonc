@@ -32,7 +32,7 @@
 
     "image#bom-cafe-hero":{
         "props": {
-            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe-hero2.png",
+            "src": "https://tramacafes.vtexassets.com/arquivos/buti-hero.jpg",
             "maxHeight": "500px",
             "blockClass": "fazenda-hero-img"
           }
@@ -62,7 +62,7 @@
 
     "rich-text#bom-cafe-main-text":{
         "props":{
-            "text": "A Fazenda Ipoméia cultiva café desde 1986. Fundada junto à estrada de ferro e à Estação Ipoméia, em São Sebastião do Paraíso (MG), ela começou com 10 mil pés plantados. Hoje, tem cerca de um milhão e quinhentos mil pés de café, espalhados por 517 hectares.\n\nA fazenda fica na região da Alta Mogiana, uma das mais tradicionais regiões cafeeiras do Brasil e especializada na plantação de cafés da espécie Arábica, de qualidade superior, acidez equilibrada e aromas que remetem ao caramelo.\n\nA Fazenda Ipoméia dá origem ao Café Constantino, reconhecido pela excelência dos grãos, que se beneficiam da altitude de 1100m, além de um solo e clima ideais para o cultivo.",
+            "text": "A tradicional Fazenda Bom Café foi a localidade escolhida por uma família de imigrantes italianos que se instalou em Ouro Fino, no extremo Sul de Minas Gerais. Ao longo dos anos, a propriedade agrícola de administração familiar foi aos poucos se modernizando e adaptando as práticas ao plantio e colheita de café.\n\nAlém de cafés tradicionais, gourmet e especiais certificados, a fazenda hoje tem projetos de piscicultura, produção de uvas de mesa e azeite, plantação de milhos, entre outros.\n\nOs proprietários moram na Fazenda Bom Café e participam ativamente das atividades da fazenda.",
             "textColor": "c-on-base--inverted",
             "blockClass": "fazenda-main-text-text"
         }
@@ -146,7 +146,7 @@
     },
     "rich-text#stat1-bom-cafe":{
         "props":{
-            "text": "São Sebastião do Paraíso/MG",
+            "text": "Ouro Fino/MG",
             "blockClass": "fazenda-stats-text"
         }
     },
@@ -169,7 +169,7 @@
     },
     "rich-text#stat2-bom-cafe":{
         "props":{
-            "text": "1100m",
+            "text": "950m - 1100m",
             "blockClass": "fazenda-stats-text"
         }
     },
@@ -192,7 +192,7 @@
     },
     "rich-text#stat3-bom-cafe":{
         "props":{
-            "text": "517ha",
+            "text": "144 ha",
             "blockClass": "fazenda-stats-text"
         }
     },
@@ -215,7 +215,7 @@
     },
     "rich-text#stat4-bom-cafe":{
         "props":{
-            "text": "Catauí Amarelo\nMundo Novo",
+            "text": "Catauí",
             "textAlignment": "CENTER",
             "blockClass": "fazenda-stats-text"
         }
@@ -244,7 +244,7 @@
     },
     "image#bom-cafe1":{
         "props": {
-            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe-secagem.jpg",
+            "src": "https://tramacafes.vtexassets.com/arquivos/buti-secagem.jpg",
             "maxHeight": "650px",
             "maxWidth": "",
             "blockClass": "fazenda-img1"
@@ -262,7 +262,7 @@
     },
     "rich-text#bom-cafe1":{
         "props":{
-            "text": "A fazenda prioriza a contratação de trabalhadores locais e está comprometida com o crescimento econômico da região da Alta Mogiana e com o desenvolvimento sociocultural da comunidade.\n\nAlém disso, a Fazenda Ipoméia direciona recursos para cuidar do meio-ambiente. Mantém uma grande área de mata preservada e protegida no Parque Nacional da Serra da Canastra, berço do importantíssimo Rio São Francisco, preserva a mata nativa e as nascentes em sua área e reutiliza a polpa descartada do café como adubo.\n\n Esses e outros cuidados renderam à fazenda certificados importantes, como o selo UTZ, que certifica as iniciativas de agricultura sustentável da fazenda."
+            "text": "A Fazenda Bom Café produz o café especial Buti, um café certificado pelo programa Certifica Minas Café. Ele é produzido a partir da variedade Catuaí e é preparado pelo sistema de secagem natural. Destaca-se pela presença de notas florais, frutadas e de caramelo, além de uma acidez equilibrada e finalização marcante e prolongada.\n\nA fazenda preza por uma produção sem uso de agrotóxicos e que respeita a comunidade de trabalhadores e o meio-ambiente."
             // "textColor": "c-on-base--inverted"
         }
     },
@@ -298,7 +298,7 @@
         "props": {
             "querySchema": {
             "skusFilter": "ALL_AVAILABLE",
-            "queryField": "Caf%C3%A9%20Buti",
+            "queryField": "Buti%20Caf%C3%A9%20Especial",
             "mapField": "b",
             "simulationBehavior": "default",
             "maxItemsPerPage": 15,
@@ -367,7 +367,7 @@
     },
     "rich-text#bom-cafe2":{
         "props":{
-            "text": "O Café Constantino, produzido na Fazenda Ipoméia, é a prova maior da qualidade do cultivo, do beneficiamento e de todo o trabalho duro dos proprietários e da comunidade local envolvida na produção.\n\nBlend das variedades Catauí Amarelo e Mundo Novo, ambas da espécie Arábica, o Café Constantino é marcado pelo aroma de chocolate e nozes, um corpo cremoso e aveludado, acidez de frutas vermelhas maduras e sabor caramelizado."
+            "text": "Os cafés Buti são certificados pelo programa Certifica Minas Café, do governo do estado de Minas Gerais, e também pela Associação Brasileira de Cafés Especiais (BSCA).\n\nEssas certificações atestam a qualidade dos cafés produzidos na Fazenda Bom Café e garantem ao consumidor que as melhores práticas foram utilizadas."
         }
     },
 
@@ -378,7 +378,7 @@
     },
     "image#bom-cafe2":{
         "props": {
-            "src": "https://tramacafes.vtexassets.com/arquivos/bom-cafe3.jpg",
+            "src": "https://tramacafes.vtexassets.com/arquivos/buti-fazenda1.jpg",
             "maxHeight": "650px",
             "maxWidth": "",
             "blockClass": "fazenda-img2"
