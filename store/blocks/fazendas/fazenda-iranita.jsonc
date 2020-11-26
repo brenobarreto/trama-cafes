@@ -54,8 +54,14 @@
             "rich-text#iranita-main-text"
         ],
         "props":{
-            "marginLeft": 10,
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 8
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 8
+            },
             "blockClass": "fazenda-main-text-col"
         }
     },
