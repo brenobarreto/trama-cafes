@@ -26,6 +26,10 @@
     background-color: white
 }
 
+.flexRow--main-header-mobile{
+    background-color: #1F271B;
+}
+
 /* .flexRowContent--row-fazendas .stretchChildrenWidth{
     width: 33%;
 } */
