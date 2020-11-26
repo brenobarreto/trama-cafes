@@ -22,7 +22,7 @@
 } */
 
 .flexRowContent--fazenda-prods{
-    padding: 20px 0 50px 0;
+    padding: 20px 0 0 0;
     background-color: white
 }
 
@@ -100,5 +100,11 @@
 @media(max-width:800px){
     .flexRow--flex-info{
         display: none;
+    }
+}
+
+@media(min-width:800px){
+    .flexRowContent--fazenda-prods{
+        padding: 20px 0 50px 0;
     }
 }

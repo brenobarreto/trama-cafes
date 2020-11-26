@@ -138,7 +138,10 @@
     "flex-layout.row#stat1-text":{
         "children":[
             "rich-text#stat1"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat1":{
         "props":{
@@ -161,7 +164,10 @@
     "flex-layout.row#stat2-text":{
         "children":[
             "rich-text#stat2"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat2":{
         "props":{
@@ -184,7 +190,10 @@
     "flex-layout.row#stat3-text":{
         "children":[
             "rich-text#stat3"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat3":{
         "props":{
@@ -232,7 +241,10 @@
         ],
         "props":{
             "paddingTop": 9,
-            "paddingBottom": 10,
+            "paddingBottom": {
+                "desktop": 10,
+                "mobile": 5
+            },
             "colGap": 9,
             "fullWidth": true,
             "blockClass":"fazenda-body-1"
@@ -258,7 +270,14 @@
             "rich-text#iranita1"
         ],
         "props":{
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 0,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },
@@ -363,7 +382,14 @@
             "rich-text#iranita2"
         ],
         "props":{
-            "marginLeft": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 0,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },

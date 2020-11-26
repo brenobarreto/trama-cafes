@@ -54,8 +54,14 @@
             "rich-text#tres-porteiras-main-text"
         ],
         "props":{
-            "marginLeft": 10,
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 8
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 8
+            },
             "blockClass": "fazenda-main-text-col"
         }
     },
@@ -132,7 +138,10 @@
     "flex-layout.row#stat1-text-tres-porteiras":{
         "children":[
             "rich-text#stat1-tres-porteiras"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat1-tres-porteiras":{
         "props":{
@@ -155,7 +164,10 @@
     "flex-layout.row#stat2-text-tres-porteiras":{
         "children":[
             "rich-text#stat2-tres-porteiras"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat2-tres-porteiras":{
         "props":{
@@ -178,7 +190,10 @@
     "flex-layout.row#stat3-text-tres-porteiras":{
         "children":[
             "rich-text#stat3-tres-porteiras"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat3-tres-porteiras":{
         "props":{
@@ -226,7 +241,10 @@
         ],
         "props":{
             "paddingTop": 9,
-            "paddingBottom": 10,
+            "paddingBottom": {
+                "desktop": 10,
+                "mobile": 5
+            },
             "colGap": 9,
             "fullWidth": true,
             "blockClass":"fazenda-body-1"
@@ -252,7 +270,14 @@
             "rich-text#tres-porteiras1"
         ],
         "props":{
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 0,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },
@@ -357,7 +382,14 @@
             "rich-text#tres-porteiras2"
         ],
         "props":{
-            "marginLeft": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 0,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },

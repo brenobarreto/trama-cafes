@@ -54,8 +54,14 @@
             "rich-text#baoba-main-text"
         ],
         "props":{
-            "marginLeft": 10,
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 8
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 8
+            },
             "blockClass": "fazenda-main-text-col"
         }
     },
@@ -136,7 +142,10 @@
     "flex-layout.row#stat1-text-baoba":{
         "children":[
             "rich-text#stat1-baoba"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat1-baoba":{
         "props":{
@@ -159,7 +168,10 @@
     "flex-layout.row#stat2-text-baoba":{
         "children":[
             "rich-text#stat2-baoba"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat2-baoba":{
         "props":{
@@ -182,7 +194,10 @@
     "flex-layout.row#stat3-text-baoba":{
         "children":[
             "rich-text#stat3-baoba"
-        ]
+        ],
+        "props": {
+            "marginBottom": 6
+        }
     },
     "image#stat3-baoba":{
         "props":{
@@ -230,7 +245,10 @@
         ],
         "props":{
             "paddingTop": 9,
-            "paddingBottom": 10,
+            "paddingBottom": {
+                "desktop": 10,
+                "mobile": 5
+            },
             "colGap": 9,
             "fullWidth": true,
             "blockClass":"fazenda-body-1"
@@ -256,7 +274,14 @@
             "rich-text#baoba1"
         ],
         "props":{
-            "marginRight": 10,
+            "marginLeft": {
+                "desktop": 0,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 10,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },
@@ -361,7 +386,14 @@
             "rich-text#baoba2"
         ],
         "props":{
-            "marginLeft": 10,
+            "marginLeft": {
+                "desktop": 10,
+                "mobile": 6
+            },
+            "marginRight": {
+                "desktop": 0,
+                "mobile": 6
+            },
             "verticalAlign": "middle"
         }
     },
