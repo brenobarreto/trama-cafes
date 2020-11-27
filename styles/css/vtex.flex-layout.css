@@ -17,9 +17,9 @@
     /* width: 33%; */
 }
 
-/* .flexRow--fazenda-prods{
-    background-color: white;
-} */
+.flexRowContent--fazenda-body-2{
+    margin-top: 0;
+}
 
 .flexRowContent--fazenda-prods{
     padding: 20px 0 0 0;
