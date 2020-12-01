@@ -129,7 +129,7 @@
       "showValueNameForImageVariation": true,
       "maxItems": 20,
       "hideImpossibleCombinations": false,
-      "initialSelection": "empty",
+      "initialSelection": "complete",
       "visibleVariations" : ["Volume"]
     }
   },
