@@ -24,7 +24,7 @@
       "images": [
         {
           "image": "",
-          "mobileImage": "https://tramacafes.vtexassets.com/assets/vtex.file-manager-graphql/images/ebd5e418-7c0a-4f90-84f7-d833d80f52e2___c8cc760f0de79d0682d3800f3faace8d.png",
+          "mobileImage": "",
           "description": ""
         },
         {
@@ -45,7 +45,11 @@
       "infinite": true,
       "blockClass": "home-slider",
       "fullWidth": true,
-      "showPaginationDots": false
+      "showPaginationDots": false,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
     }
   },
 
