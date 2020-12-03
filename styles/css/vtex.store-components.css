@@ -34,16 +34,6 @@
     font-weight: 500;
 }
 
-.imageElement--card-img-fazendas{
-    border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.imageElement--card-img-fazendas:hover{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
 .productDescriptionTitle--pdp-product-description{
     display: none;
 }
@@ -103,4 +93,49 @@
 
 .imageElement--stat-icon{
     max-width: 70px;
+}
+
+.infoCardContainer--info-card-fazenda{
+    background-color: #1f271B;
+    padding-right: 0;
+    padding-bottom: 0;
+    max-height: 350px;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.infoCardContainer--info-card-fazenda:hover{
+    box-shadow: 0 28px 48px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.infoCardImage--info-card-fazenda{
+    vertical-align: middle;
+    max-height: 350px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.infoCardHeadline--info-card-fazenda,
+.infoCardSubhead--info-card-fazenda{
+    color: #F3FCF0;
+    margin-left: 2rem;
+}
+
+.infoCardSubhead--info-card-fazenda{
+    margin-top: 0.7rem;
+}
+
+.infoCardCallActionContainer--info-card-fazenda :global(.vtex-button){
+    background-color: transparent;
+    border: 1px solid #F3FCF0;
+    margin-left: 2rem;
+}
+
+@media(min-width:640px){
+
+    .infoCardImage--info-card-fazenda{
+        border-radius: 0 10px 10px 0;
+    }
 }

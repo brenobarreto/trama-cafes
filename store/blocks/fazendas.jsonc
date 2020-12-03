@@ -3,8 +3,7 @@
         "blocks":[
             "rich-text#fazendas-title",
             "flex-layout.row#fazendas-description",
-            "flex-layout.row#fazendas1",
-            "flex-layout.row#fazendas2"
+            "flex-layout.row#fazendas-main"
         ]
     },
 
@@ -35,124 +34,161 @@
         }
     },
 
-
-    /*---FAZENDAS 1---*/
-
-    "flex-layout.row#fazendas1":{
+    "flex-layout.row#fazendas-main":{
         "children":[
-            "flex-layout.col#fazenda-iranita",
-            "flex-layout.col#fazenda-tres-porteiras",
-            "flex-layout.col#fazenda-ipomeia"
+            "flex-layout.col#fazendas-list"
         ],
         "props":{
-            "blockClass": "row-fazendas"
+            "fullWidth": true
         }
     },
 
-    "flex-layout.col#fazenda-iranita":{
+
+    /*---FAZENDAS LIST---*/
+
+    "flex-layout.col#fazendas-list":{
         "children":[
-            // "info-card#fazenda-iranita"
-            "image#fazenda-iranita"
+            "flex-layout.row#fazenda-1-iranita",
+            "flex-layout.row#fazenda-2-tres-porteiras",
+            "flex-layout.row#fazenda-3-ipomeia",
+            "flex-layout.row#fazenda-4-baoba",
+            "flex-layout.row#fazenda-5-bom-cafe"
         ],
-        "props":{
-            "blockClass": "card-fazendas"
-        }
-    },
-    "image#fazenda-iranita":{
         "props": {
-           "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-iranita.png",
-           "title": "Fazenda Iranita",
-           "link": {
-            "url":"/fazenda-iranita"
-                },
-           "blockClass": "card-img-fazendas"
-          }
-    },
-
-    "flex-layout.col#fazenda-tres-porteiras":{
-        "children":[
-            "image#fazenda-tres-porteiras"
-        ],
-        "props":{
-            "blockClass": "card-fazendas"
+            "blockClass": "fazendas-list",
+            "rowGap": 10
         }
     },
-    "image#fazenda-tres-porteiras":{
-        "props": {
-            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-tres-porteiras.png",
-            "link": {
-                "url":"/fazenda-tres-porteiras"
-                    },
-            "blockClass": "card-img-fazendas"
-          }
-    },
 
-    "flex-layout.col#fazenda-ipomeia":{
+    /*---FAZENDA IRANITA---*/
+
+    "flex-layout.row#fazenda-1-iranita":{
         "children":[
-            "image#fazenda-ipomeia"
+            "info-card#iranita"
         ],
         "props":{
-            "blockClass": "card-fazendas"
+            "blockClass": "row-fazenda-list"
         }
     },
-    "image#fazenda-ipomeia":{
+
+    "info-card#iranita":{
         "props": {
-            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-ipomeia.png",
-            "link": {
-                "url":"/fazenda-ipomeia"
-                    },
-            "blockClass": "card-img-fazendas"
+            "id": "info-card-iranita",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/iranita-fazendas-card.jpg",
+            "headline": "Fazenda Iranita",
+            "subhead": "Porciúncula, RJ",
+            "callToActionText": "CONHECER",
+            "callToActionUrl": "/fazenda-iranita",
+            "blockClass": "info-card-fazenda",
+            "textAlignment": "left"
           }
     },
 
 
-    /*---FAZENDAS 2---*/
+    /*---FAZENDA TRÊS PORTEIRAS---*/
 
-    "flex-layout.row#fazendas2":{
+    "flex-layout.row#fazenda-2-tres-porteiras":{
         "children":[
-            "flex-layout.col#fazenda-baoba",
-            "flex-layout.col#fazenda-bom-cafe"
+            "info-card#tres-porteiras"
         ],
         "props":{
-            "blockClass": "row-fazendas",
-            "horizontalAlign": "left",
-            "preventHorizontalStretch": true
+            "blockClass": "row-fazenda-list"
         }
     },
 
-    "flex-layout.col#fazenda-baoba":{
-        "children":[
-            "image#fazenda-baoba"
-        ],
-        "props":{
-            "blockClass": "card-fazendas"
-        }
-    },
-    "image#fazenda-baoba":{
+    "info-card#tres-porteiras":{
         "props": {
-            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-baoba.png",
-            "link": {
-                "url":"/fazenda-baoba"
-                    },
-            "blockClass": "card-img-fazendas"
+            "id": "info-card-tres-porteiras",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/fazenda-tres-porteiras-card.png",
+            "headline": "Fazenda Três Porteiras",
+            "subhead": "Ingaí, MG",
+            "callToActionText": "CONHECER",
+            "callToActionUrl": "/fazenda-tres-porteiras",
+            "blockClass": "info-card-fazenda",
+            "textAlignment": "left"
           }
     },
 
-    "flex-layout.col#fazenda-bom-cafe":{
+    /*---FAZENDA IPOMÉIA---*/
+
+    "flex-layout.row#fazenda-3-ipomeia":{
         "children":[
-            "image#fazenda-bom-cafe"
+            "info-card#ipomeia"
         ],
         "props":{
-            "blockClass": "card-fazendas"
+            "blockClass": "row-fazenda-list"
         }
     },
-    "image#fazenda-bom-cafe":{
+
+    "info-card#ipomeia":{
         "props": {
-            "src":"https://tramacafes.vteximg.com.br/arquivos/fazenda-bom-cafe.png",
-            "link": {
-                "url":"/fazenda-bom-cafe"
-                    },
-            "blockClass": "card-img-fazendas"
+            "id": "info-card-ipomeia",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/fazenda-ipomeia-card.png",
+            "headline": "Fazenda Ipoméia",
+            "subhead": "São Sebastião do Paraíso, MG",
+            "callToActionText": "CONHECER",
+            "callToActionUrl": "/fazenda-ipomeia",
+            "blockClass": "info-card-fazenda",
+            "textAlignment": "left"
+            }
+    },
+
+    /*---FAZENDA BAOBÁ---*/
+
+    "flex-layout.row#fazenda-4-baoba":{
+        "children":[
+            "info-card#baoba"
+        ],
+        "props":{
+            "blockClass": "row-fazenda-list"
+        }
+    },
+
+    "info-card#baoba":{
+        "props": {
+            "id": "info-card-baoba",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/fazenda-baoba-card.png",
+            "headline": "Fazenda Baobá",
+            "subhead": "São Sebastião da Grama, MG",
+            "callToActionText": "CONHECER",
+            "callToActionUrl": "/fazenda-baoba",
+            "blockClass": "info-card-fazenda",
+            "textAlignment": "left"
           }
+    },
+
+    /*---FAZENDA BOM CAFÉ---*/
+
+    "flex-layout.row#fazenda-5-bom-cafe":{
+        "children":[
+            "info-card#bom-cafe"
+        ],
+        "props":{
+            "blockClass": "row-fazenda-list"
+        }
+    },
+
+    "info-card#bom-cafe":{
+        "props": {
+            "id": "info-card-bom-cafe",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://tramacafes.vteximg.com.br/arquivos/fazenda-bom-cafe-card.png",
+            "headline": "Fazenda Bom Café",
+            "subhead": "Ouro Fino, MG",
+            "callToActionText": "CONHECER",
+            "callToActionUrl": "/fazenda-bom-cafe",
+            "blockClass": "info-card-fazenda",
+            "textAlignment": "left"
+            }
     }
+
 }

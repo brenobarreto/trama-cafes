@@ -10,11 +10,19 @@
     margin-bottom: 60px;
 }
 
+.flexCol--fazenda-col-description{
+    background-color: #1F271B;
+}
+
 .flexCol--card-fazendas{
     margin: 45px;
     padding: 5px;
     /* flex-grow: 1; */
     /* width: 33%; */
+}
+
+.flexCol--fazendas-list{
+    padding-bottom: 150px;
 }
 
 .flexRowContent--fazenda-body-2{
