@@ -200,7 +200,7 @@
   "blog-latest-posts-preview.wordpress-latest-posts-preview#home":{
     "props":{
       "blockClass": "blog-posts-preview-home",
-      "title": "Descubra o universo do café especial",
+      "title": "Converse com a Trama",
       "numberOfPosts": 3,
       "showExcerpts": true,
       "showCategories": false
