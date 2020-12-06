@@ -200,7 +200,7 @@
   "blog-latest-posts-preview.wordpress-latest-posts-preview#home":{
     "props":{
       "blockClass": "blog-posts-preview-home",
-      "title": "Converse com a Trama",
+      "title": "Bora conversar",
       "numberOfPosts": 3,
       "showExcerpts": true,
       "showCategories": false
