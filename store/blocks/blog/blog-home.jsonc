@@ -8,7 +8,7 @@
         },
         "rich-text#blog-title":{
             "props": {
-                "text": "Descubra o universo do café especial",
+                "text": "Café, Histórias e Curiosidades",
                 "textAlignment": "CENTER",
                 "textPosition": "CENTER",
                 "textColor": "#4B5446",
