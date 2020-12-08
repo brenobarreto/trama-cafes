@@ -99,6 +99,10 @@
 
 } */
 
+.flexRowContent--confirmationButtons{
+    display: none;
+}
+
 @media(min-width:800px){
     .flexRow--institucional-body{
         margin: 0 10rem 0 10rem;
